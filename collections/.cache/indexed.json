@@ -1,0 +1,90 @@
+{
+  "blog": {
+    "collection": {
+      "/blog/example-post": {
+        "ticks": 1364947200.0,
+        "title": "Example post",
+        "published": true,
+        "mixture_month_year": "04/2013",
+        "date": "Wed Apr 03 00:00:00 UTC 2013",
+        "slug": "/blog/example-post",
+        "mixture_date": "2013-04-03T00:00:00Z",
+        "year": "2013",
+        "layout": "blog-post",
+        "month": "04",
+        "body": "\n\n<p>Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod.</p>\n\n<p>Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>"
+      },
+      "/blog/improving-discovery-on-spotify": {
+        "ticks": 1365033600.0,
+        "title": "Improving Discovery On Spotify",
+        "published": true,
+        "mixture_month_year": "04/2013",
+        "date": "Thu Apr 04 00:00:00 UTC 2013",
+        "slug": "/blog/improving-discovery-on-spotify",
+        "mixture_date": "2013-04-04T00:00:00Z",
+        "year": "2013",
+        "layout": "blog-post",
+        "month": "04",
+        "body": "\n\n<p>Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod.</p>\n\n<p>Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>"
+      }
+    },
+    "index": {
+      "title": {
+        "example post": [
+          "/blog/example-post"
+        ],
+        "improving discovery on spotify": [
+          "/blog/improving-discovery-on-spotify"
+        ]
+      },
+      "ticks": {
+        "1364947200.0": [
+          "/blog/example-post"
+        ],
+        "1365033600.0": [
+          "/blog/improving-discovery-on-spotify"
+        ]
+      },
+      "mixture_month_year": {
+        "04/2013": [
+          "/blog/example-post",
+          "/blog/improving-discovery-on-spotify"
+        ]
+      },
+      "slug": {
+        "/blog/example-post": [
+          "/blog/example-post"
+        ],
+        "/blog/improving-discovery-on-spotify": [
+          "/blog/improving-discovery-on-spotify"
+        ]
+      },
+      "mixture_date": {
+        "2013-04-04t00:00:00z": [
+          "/blog/improving-discovery-on-spotify"
+        ],
+        "2013-04-03t00:00:00z": [
+          "/blog/example-post"
+        ]
+      },
+      "layout": {
+        "blog-post": [
+          "/blog/example-post",
+          "/blog/improving-discovery-on-spotify"
+        ]
+      },
+      "year": {
+        "2013": [
+          "/blog/example-post",
+          "/blog/improving-discovery-on-spotify"
+        ]
+      },
+      "month": {
+        "04": [
+          "/blog/example-post",
+          "/blog/improving-discovery-on-spotify"
+        ]
+      }
+    }
+  }
+}

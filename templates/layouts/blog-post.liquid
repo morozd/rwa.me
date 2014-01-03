@@ -1,0 +1,30 @@
+
+todo dubbele layout met blog liquid
+todo title
+
+  		{% include "header" %}
+
+		{% block intro %}{% endblock %}
+		
+		<div id="main-content">
+
+			<div class="row">
+
+			    <div class="large-12 columns">
+
+					<div class="blog-post">
+
+						<h2><a href="{{ model.slug }}">{{ model.title }}</a></h2>
+
+						<div class="date">{{ model.date | date: "%B %d, %Y" }}</div>
+
+						{% block content %}{% endblock %}
+
+					</div>
+
+				</div>
+			</div>
+			
+		</div>
+
+  		{% include "footer" %}

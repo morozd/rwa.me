@@ -14,7 +14,7 @@
 
 
 $bg-color: #f9f8f3;
-$bg-img: url(/assets/img/old_moon.png);
+$bg-img: url(../img/old_moon.png);
 
 $primary-link-color: #f04124;
 $primary-link-hover-color: #1a1e1f;
@@ -107,7 +107,7 @@ a:hover {
 }
 
 #top-container {
-	background-image: url(/assets/img/line.png);
+	background-image: url(../img/line.png);
 	background-repeat: no-repeat;
 	background-position: top center;
 }
@@ -159,7 +159,7 @@ a:hover {
 #intro {
 	vertical-align: center;
 	background-color: $dark-text-color;
-	background-image: url(/assets/img/intro-bg.png);
+	background-image: url(../img/intro-bg.png);
 	background-repeat: no-repeat;
 	background-position: top center;
 	padding: 50px;
@@ -258,7 +258,7 @@ a:hover {
 	width: 100px;
 	height: 100px;
 
-	background-image: url(/assets/img/project-arrow.png);
+	background-image: url(../img/project-arrow.png);
 }
 
 @media only screen and (max-width: 40em) { 
@@ -312,6 +312,40 @@ a:hover {
 	margin-bottom: 15px;
 }
 
+/* Blog */
+
+.blog-post {
+	margin-bottom: 100px;
+}
+
+.blog-post h2 {
+	text-align: center;
+	border: none;
+	
+	font-family: "brandon-grotesque",sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 3.0em;
+	text-transform: none;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 15px;
+	letter-spacing: 0;
+}
+
+.blog-post .date {
+	font-family: "ff-tisa-web-pro",serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.2em;
+	color: #999;
+	text-align: center;
+
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ddd;
+}
+
 /* Footer */
 
 footer {
@@ -324,7 +358,7 @@ footer {
 	font-size: 1.0em;
 
 	background: no-repeat center center;
-	background-image: url(/assets/img/footer.png);
+	background-image: url(../img/footer.png);
     background-size: cover;
 	background-color: #111;
 }
