@@ -1,0 +1,437 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+// Global Foundation Settings
+@import "foundation/settings";
+
+// You can import only specific elements by adjusting the import below
+//@import "foundation";
+@import "foundation/components/Global";
+@import "foundation/components/Grid";
+@import "foundation/components/Forms";
+@import "foundation/components/Type";
+@import "foundation/components/Sub-Nav";
+
+
+$bg-color: #f9f8f3;
+$bg-img: url(/assets/img/old_moon.png);
+
+$primary-link-color: #f04124;
+$primary-link-hover-color: #1a1e1f;
+$primary-link-nav-active-color: #333;
+
+$dark-text-color: #1a1e1f;
+$light-text-color: #999;
+
+$primary-color: #1effbe;
+
+
+// User styles
+
+html, body {
+	height: 100%;
+}
+
+body {
+	color: #333;
+	-webkit-font-smoothing: antialiased;
+
+	background-color: $bg-color;
+	background-image: $bg-img;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: "ff-tisa-web-pro",serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+h2 {
+	font-family: "brandon-grotesque",sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 1.2em;
+	letter-spacing: 0.1em;
+	color: $dark-text-color;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ddd;
+
+	text-transform: uppercase;
+}
+
+h3 {
+	padding-top: 25px;
+	font-family: "brandon-grotesque",sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+img {
+    max-width: 100%;
+}
+
+[data-2x] {
+    background-size: cover;
+}
+
+.row {
+	max-width: 760px;
+}
+
+p, ul {
+	font-family: "ff-tisa-web-pro",serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5em;
+	line-height: 1.6em;
+}
+
+ul {
+	list-style-type: circle;
+	margin-left: 35px;
+}
+
+a {
+	color: $primary-link-color;
+}
+
+a:hover {
+	color: $primary-link-hover-color;
+}
+
+#top {
+	padding-top: 100px;
+	padding-bottom: 75px;
+}
+
+#top-container {
+	background-image: url(/assets/img/line.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+#logo {
+	border: 3px solid $dark-text-color;
+	color: $dark-text-color;
+
+	font-family: "brandon-grotesque",sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 3em;
+
+	width: 4em;
+	padding: 22px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#nav {
+	font-family: "brandon-grotesque",sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.0em;
+	text-transform: uppercase;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#nav a {
+	color: $primary-link-color;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#nav a:hover {
+	color: $primary-link-hover-color;
+}
+
+#nav a.active {
+	color: $primary-link-nav-active-color;
+}
+
+#nav2 a {
+	color: #282828;
+}
+
+#intro {
+	vertical-align: center;
+	background-color: $dark-text-color;
+	background-image: url(/assets/img/intro-bg.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	padding: 50px;
+	text-align: center;
+	position: relative;
+	
+}
+
+#intro h1 {
+	color: White;
+	font-size: 1.8em;
+}
+
+#intro h1 span {
+	font-style: italic;
+}
+
+#intro-dot {
+	display: inline-block;
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	width: 16px;
+	height: 4px;
+	margin-left: -8px;
+	background-color: $primary-color;
+}
+
+@media only screen and (max-width: 40em) { 
+
+	#intro {
+		padding: 1.0em;
+		padding-top: 50px;
+		padding-bottom: 25px;
+	}
+
+	#intro h1 {
+		font-size: 1.4em;
+	}
+}
+
+.main-content-intro {
+	margin-bottom: 65px;
+}
+
+#main-content {
+	display: block;
+	/*height: 100%;*/
+	margin-top: 75px;
+
+}
+
+
+#main-content .row {
+	margin-bottom: 50px;
+}
+
+/* Projects */
+
+#projects {
+	margin-bottom: 50px;
+}
+
+.project {
+	/*height: 95%;*/
+	height: 700px;
+	position: relative;
+	overflow: none;
+	display: block;
+	background-color: $dark-text-color;
+	text-align: center;
+	border-bottom: 2px solid #000;
+}
+
+.project-bg {
+	background: no-repeat center center;
+	background-size: cover;
+	top: 0;
+	left: 0;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+	opacity: 1;
+}
+
+.project .project-arrow {
+
+	position: absolute;
+	z-index: 20;
+	right: 25px;
+	top: 50%;
+	margin-top: -50px;
+
+	width: 100px;
+	height: 100px;
+
+	background-image: url(/assets/img/project-arrow.png);
+}
+
+@media only screen and (max-width: 40em) { 
+
+	.project {
+		height: 300px;
+		border: none;
+		margin-bottom: 2em;
+	}
+
+	.project .project-arrow {
+		display: none;
+	}
+}
+
+#dribbble-shots {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+#dribbble-shots li {
+	float: left;
+	margin: 10px;
+	border: 6px solid #fff;
+}
+
+.more-shots {
+	margin-top: 25px;
+	text-align: center;
+	font-style: italic;
+	font-size: 1.2em;
+	color: $light-text-color;
+}
+
+/* About */
+
+.about-photo {
+	margin-bottom: 35px;
+}
+
+.book {
+	font-size: 1.0em;
+	margin-top: 50px;
+	margin-bottom: 75px;
+	display: block;
+}
+
+.book img {
+	margin-bottom: 15px;
+}
+
+/* Footer */
+
+footer {
+	padding-top: 50px;
+	min-height: 300px;
+	color: #666;
+	font-family: "ff-tisa-web-pro",serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.0em;
+
+	background: no-repeat center center;
+	background-image: url(/assets/img/footer.png);
+    background-size: cover;
+	background-color: #111;
+}
+
+footer p, footer ul {
+	font-size: 1.0em;
+	line-height: 1.6em;
+}
+
+footer p {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 0.5em;
+}
+
+footer ul {
+	margin-left: 25px;
+}
+
+footer a {
+	color: #ccc;
+}
+
+footer a:hover {
+	color: #eee;
+}
+
+footer .top-link {
+	padding: 50px;
+	font-size: 1.0em;
+	color: #444;
+	border-top: 1px dotted #333;
+
+
+	font-family: "brandon-grotesque",sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 2em;
+}
+
+footer .columns {
+	padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 40em) { 
+
+	footer p, footer ul {
+		text-align: center;
+		font-size: 1.4em;
+	}
+
+	footer ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+}
+
+// .project {
+// 	border: 1px solid #ddd;
+// 	min-height: 200px;
+// 	position: relative;
+// 	margin-top: 2em;
+// 	margin-bottom: 2em;
+// }
+
+// .project-name {
+// 	background-color: $bg-color;
+// 	background-image: $bg-img;
+
+// 	border: 1px solid #ddd;
+// 	padding: 0.8em 1.6em;
+// 	left: 1em;
+// 	position: absolute;
+// 	margin-bottom: -1.3em;
+// 	bottom: 100%;
+// 	font-size: 0.9em;
+
+
+// 	font-family: "brandon-grotesque",sans-serif;
+// 	font-style: normal;
+// 	font-weight: 500;
+// 	text-transform: uppercase;
+
+// 	color: $dark-text-color;
+// }
+
+
+
+// .project > .content {
+// 	height: 100px;
+// 	left: 0;
+// 	margin-top: -50px;
+// 	position: absolute;
+// 	top: 50%;
+// 	width: 100%;
+// 	z-index: 20;
+
+
+// 	color: White;
+
+// 	font-family: "brandon-grotesque",sans-serif;
+// 	font-style: normal;
+// 	font-weight: 900;
+// 	text-transform: uppercase;
+// 	font-size: 4em;
+
+// }
