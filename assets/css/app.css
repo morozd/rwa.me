@@ -2577,6 +2577,9 @@ a:hover {
   margin-bottom: 20px;
   border-bottom: 1px solid #ddd; }
 
+.blog-post .social {
+  margin-top: 50px; }
+
 /* Footer */
 footer {
   padding-top: 50px;
