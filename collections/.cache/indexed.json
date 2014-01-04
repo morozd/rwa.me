@@ -1,87 +1,87 @@
 {
   "blog": {
     "collection": {
-      "/blog/example-post": {
-        "ticks": 1364947200.0,
-        "title": "Example post",
-        "published": true,
-        "mixture_month_year": "04/2013",
-        "date": "Wed Apr 03 00:00:00 UTC 2013",
-        "slug": "/blog/example-post",
+      "/blog/the-secret-handshake": {
         "mixture_date": "2013-04-03T00:00:00Z",
+        "ticks": 1364947200.0,
+        "body": "\n\n<p>A few weeks ago I found out about a site called &#8216;The Secret Handshake&#8217;. It&#8217;s a site with advice from a lot of my favorite designers, on topics like creating your Resume, the Application Process and tips on what makes a great Portfolio. I find myself visiting it at least once a week, clicking random photos to learn and be inspired.</p>\n\n<p>Check it out at <a href=\"http://www.learnthesecrethandshake.com\">www.learnthesecrethandshake.com</a>.</p>\n",
+        "title": "The Secret Handshake",
+        "date": "Wed Apr 03 00:00:00 UTC 2013",
+        "slug": "/blog/the-secret-handshake",
+        "mixture_month_year": "04/2013",
         "year": "2013",
-        "layout": "blog-post",
         "month": "04",
-        "body": "\n\n<p>Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod.</p>\n\n<p>Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>"
+        "layout": "blog-post",
+        "published": true
       },
       "/blog/improving-discovery-on-spotify": {
+        "mixture_date": "2013-04-04T00:00:00Z",
         "ticks": 1365033600.0,
+        "body": "\n\n<p>Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod.</p>\n\n<p>Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>",
         "title": "Improving Discovery On Spotify",
-        "published": true,
-        "mixture_month_year": "04/2013",
         "date": "Thu Apr 04 00:00:00 UTC 2013",
         "slug": "/blog/improving-discovery-on-spotify",
-        "mixture_date": "2013-04-04T00:00:00Z",
+        "mixture_month_year": "04/2013",
         "year": "2013",
-        "layout": "blog-post",
         "month": "04",
-        "body": "\n\n<p>Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod.</p>\n\n<p>Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>"
+        "layout": "blog-post",
+        "published": true
       }
     },
     "index": {
-      "title": {
-        "example post": [
-          "/blog/example-post"
-        ],
-        "improving discovery on spotify": [
-          "/blog/improving-discovery-on-spotify"
-        ]
-      },
-      "ticks": {
-        "1364947200.0": [
-          "/blog/example-post"
-        ],
-        "1365033600.0": [
-          "/blog/improving-discovery-on-spotify"
-        ]
-      },
-      "mixture_month_year": {
-        "04/2013": [
-          "/blog/example-post",
-          "/blog/improving-discovery-on-spotify"
-        ]
-      },
-      "slug": {
-        "/blog/example-post": [
-          "/blog/example-post"
-        ],
-        "/blog/improving-discovery-on-spotify": [
-          "/blog/improving-discovery-on-spotify"
-        ]
-      },
       "mixture_date": {
         "2013-04-04t00:00:00z": [
           "/blog/improving-discovery-on-spotify"
         ],
         "2013-04-03t00:00:00z": [
-          "/blog/example-post"
+          "/blog/the-secret-handshake"
+        ]
+      },
+      "title": {
+        "improving discovery on spotify": [
+          "/blog/improving-discovery-on-spotify"
+        ],
+        "the secret handshake": [
+          "/blog/the-secret-handshake"
+        ]
+      },
+      "ticks": {
+        "1364947200.0": [
+          "/blog/the-secret-handshake"
+        ],
+        "1365033600.0": [
+          "/blog/improving-discovery-on-spotify"
+        ]
+      },
+      "slug": {
+        "/blog/improving-discovery-on-spotify": [
+          "/blog/improving-discovery-on-spotify"
+        ],
+        "/blog/the-secret-handshake": [
+          "/blog/the-secret-handshake"
+        ]
+      },
+      "mixture_month_year": {
+        "04/2013": [
+          "/blog/the-secret-handshake",
+          "/blog/improving-discovery-on-spotify"
         ]
       },
       "layout": {
         "blog-post": [
-          "/blog/example-post",
-          "/blog/improving-discovery-on-spotify"
-        ]
-      },
-      "year": {
-        "2013": [
-          "/blog/example-post",
+          "/blog/the-secret-handshake",
           "/blog/improving-discovery-on-spotify"
         ]
       },
       "month": {
         "04": [
-          "/blog/example-post",
+          "/blog/the-secret-handshake",
+          "/blog/improving-discovery-on-spotify"
+        ]
+      },
+      "year": {
+        "2013": [
+          "/blog/the-secret-handshake",
           "/blog/improving-discovery-on-spotify"
         ]
       }

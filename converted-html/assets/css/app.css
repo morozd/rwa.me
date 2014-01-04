@@ -2549,6 +2549,37 @@ a:hover {
 .book img {
   margin-bottom: 15px; }
 
+/* Blog */
+.blog-post {
+  margin-bottom: 100px; }
+
+.blog-post h2 {
+  text-align: center;
+  border: none;
+  font-family: "brandon-grotesque",sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3.0em;
+  text-transform: none;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 15px;
+  letter-spacing: 0; }
+
+.blog-post .date {
+  font-family: "ff-tisa-web-pro",serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2em;
+  color: #999;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd; }
+
+.blog-post .social {
+  margin-top: 50px; }
+
 /* Footer */
 footer {
   padding-top: 50px;
