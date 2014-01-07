@@ -1,39 +1,79 @@
 
-todo dubbele layout met blog liquid
-todo title
 
-  		{% include "header" %}
+	{% capture pageTitle %}{{ model.title | escape}}{{global.pageTitleSeperator}}{{ global.defaultPageTitle | escape}}{% endcapture %}
 
-		{% block intro %}{% endblock %}
-		
-		<div id="main-content">
+	{% include "header" with pageTitle %}
 
-			<div class="row">
+	<div id="main-content">
 
-			    <div class="large-12 columns">
+		<div class="row">
 
-					<div class="blog-post">
+		    <div class="large-12 columns">
 
-						<h2><a href="{{ model.slug }}">{{ model.title }}</a></h2>
+				<div class="blog-post">
 
-						<div class="date">{{ model.date | date: "%B %d, %Y" }}</div>
+					<h2><a href="{{ model.slug }}">{{ model.title }}</a></h2>
 
-						{% block content %}{% endblock %}
+					<div class="date">{{ model.date | date: "%B %d, %Y" }}</div>
 
-						<div class="social text-center">
-							<a href="https://twitter.com/share" class="twitter-share-button" data-via="rickwaalders" data-count="none">Tweet</a>
-							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+					{% block content %}{% endblock %}
 
-						</div>
+					<div class="social text-center">
+						<a href="https://twitter.com/share" class="twitter-share-button" data-via="rickwaalders" data-count="none" data-url="{{global.baseUrl}}{{ model.slug }}" data-text="{{ model.title }}">Tweet</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 					</div>
 
 				</div>
+
 			</div>
-			
+		</div>
+
+	</div>
 
 
+	{% item order desc %}
+		{% if next or previous %}
+		<div class="row next-prev">
+
+			<div class="large-6 columns next">
+
+			{% if next %}
+				<h4>Next post</h4>
+				<p>
+					<a href="{{ next.url }}">{{ next.title }}</a>
+				</p>
+
+			{% endif %}
+
+			</div>
+
+			<div class="large-6 columns prev">
+
+			{% if previous %}
+				<h4>Previous post</h4>
+				<p>
+					<a href="{{ previous.url }}">{{ previous.title }}</a>
+				</p>
+
+			{% endif %}
+
+			</div>
 
 		</div>
 
-  		{% include "footer" %}
+		{% endif %}
+	{% enditem %}
+
+	<div class="row">
+		<div class="large-12 columns">
+
+			<p class="text-center back">
+				<a href="/blog">&#139; Back</a>
+			</p>
+
+
+		</div>
+	</div>
+
+	{% include "footer" %}

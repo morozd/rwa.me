@@ -2327,6 +2327,12 @@ blockquote p {
 html, body {
   height: 100%; }
 
+html {
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  /* old webkit */ }
+
 body {
   color: #333;
   -webkit-font-smoothing: antialiased;
@@ -2580,6 +2586,9 @@ a:hover {
 .blog-post .social {
   margin-top: 50px; }
 
+@media only screen and (max-width: 40em) {
+  .blog-post h2 {
+    font-size: 1.6em; } }
 /* Footer */
 footer {
   padding-top: 50px;
@@ -2628,6 +2637,10 @@ footer .columns {
   padding-bottom: 100px; }
 
 @media only screen and (max-width: 40em) {
+  footer .top-link {
+    padding: 0;
+    font-size: 1.8em; }
+
   footer p, footer ul {
     text-align: center;
     font-size: 1.4em; }

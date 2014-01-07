@@ -1,0 +1,56 @@
+
+{% block title %}{{ global.blogPageTitlePrefix | escape}}{{ global.defaultPageTitle | escape}}{% endblock %}
+
+{% block content %} 
+
+	  <div class="row">
+
+	    <div class="large-12 columns">
+
+			{% archive "blog" %}
+			  {% for item in archive.items %}
+			    <h3>{{ item.year }}</h3>
+			    <ul>
+			    {% for post in item.children %}
+			      <li><a href="{{ post.slug }}">{{ post.title }}</a></li>
+			    {% endfor %}
+			    </ul>
+			  {% endfor %}
+			{% endarchive %}
+
+		</div>
+	</div>
+
+			
+
+	{% collection "blog" %}
+	  {% for post in collection.items %}
+
+
+		  <div class="row">
+
+		    <div class="large-12 columns">
+
+				<div class="blog-post">
+
+					<h2><a href="{{ post.slug }}">{{ post.title }}</a></h2>
+
+					<div class="date">{{ post.date | date: "%B %d, %Y" }}</div>
+
+				</div>
+
+			</div>
+		</div>
+
+	  {% endfor %}
+	{% endcollection %}
+
+
+
+
+
+{% endblock %}
+
+
+
+

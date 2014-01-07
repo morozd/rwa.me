@@ -18,7 +18,7 @@ $bg-img: url(../img/old_moon.png);
 
 $primary-link-color: #f04124;
 $primary-link-hover-color: #1a1e1f;
-$primary-link-nav-active-color: #333;
+$primary-link-nav-active-color: #222;
 
 $dark-text-color: #1a1e1f;
 $light-text-color: #999;
@@ -30,6 +30,12 @@ $primary-color: #1effbe;
 
 html, body {
 	height: 100%;
+}
+
+html { 
+	-ms-word-break: break-all; 
+	word-break: break-all; 
+	word-break: break-word; /* old webkit */ 
 }
 
 body {
@@ -86,6 +92,15 @@ p, ul {
 	font-weight: 400;
 	font-size: 1.5em;
 	line-height: 1.6em;
+}
+
+blockquote {
+	font-family: "ff-tisa-web-pro",serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.2em;
+	line-height: 1.6em;
+	color: #999;
 }
 
 ul {
@@ -350,6 +365,47 @@ a:hover {
 	margin-top: 50px;
 }
 
+@media only screen and (max-width: 40em) { 
+
+	.blog-post h2 {
+		font-size: 1.6em;
+	}
+}
+
+p.back {
+	margin-bottom: 100px;
+}
+
+.next-prev {
+	margin-bottom: 50px;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+
+.next-prev .columns {
+}
+
+.next-prev .columns.prev {
+}
+
+.next-prev .columns.next {
+}
+
+.next-prev h4 {
+	font-family: "ff-tisa-web-pro",serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.0em;
+	color: #aaa;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.next-prev p {
+	margin-bottom: 10px;
+}
+
 /* Footer */
 
 footer {
@@ -410,6 +466,13 @@ footer .columns {
 }
 
 @media only screen and (max-width: 40em) { 
+
+	footer .top-link {
+		
+		padding: 0;
+		font-size: 1.8em;
+
+	}
 
 	footer p, footer ul {
 		text-align: center;

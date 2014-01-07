@@ -1,5 +1,5 @@
 
-{% block title %}{{ global.favoriteBooksPageTitlePrefix | escape}}{{ global.defaultPageTitle | escape}}{% endblock %}
+{% block title %}{{ global.favoriteBooksPageTitlePrefix | escape}}{{global.pageTitleSeperator}}{{ global.defaultPageTitle | escape}}{% endblock %}
 
 {% block content %} 
 
@@ -77,8 +77,8 @@
   <div class="row">
     <div class="large-12 columns">
 
-      <p>
-        <a href="/about/">Back to 'About me'</a>
+      <p class="text-center back">
+        <a href="/about/">&#139; Back</a>
       </p>
 
 
@@ -87,10 +87,6 @@
   
 
   
-
-
-</div>
-
 
 
 
