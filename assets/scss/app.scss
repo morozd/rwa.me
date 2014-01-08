@@ -180,7 +180,7 @@ a:hover {
 	padding: 50px;
 	text-align: center;
 	position: relative;
-	
+	margin-bottom: 65px;
 }
 
 #intro h1 {
@@ -230,6 +230,10 @@ a:hover {
 
 #main-content .row {
 	margin-bottom: 50px;
+}
+
+#intro .row {
+	margin-bottom: 0;
 }
 
 /* Projects */
@@ -316,6 +320,12 @@ a:hover {
 	margin-bottom: 35px;
 }
 
+.about-page-quote {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 35px;
+}
+
 .book {
 	font-size: 1.0em;
 	margin-top: 50px;
@@ -345,7 +355,15 @@ a:hover {
 	padding: 0;
 	margin: 0;
 	padding-bottom: 15px;
-	letter-spacing: 0;
+	letter-spacing: -1px;
+}
+
+.blog-post h2 a {
+	color: $primary-link-color;
+}
+
+.blog-post h2 a:hover {
+	color: $primary-link-hover-color;
 }
 
 .blog-post .date {

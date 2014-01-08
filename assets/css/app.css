@@ -2450,7 +2450,8 @@ a:hover {
   background-position: top center;
   padding: 50px;
   text-align: center;
-  position: relative; }
+  position: relative;
+  margin-bottom: 65px; }
 
 #intro h1 {
   color: White;
@@ -2487,6 +2488,9 @@ a:hover {
 
 #main-content .row {
   margin-bottom: 50px; }
+
+#intro .row {
+  margin-bottom: 0; }
 
 /* Projects */
 #projects {
@@ -2554,6 +2558,11 @@ a:hover {
 .about-photo {
   margin-bottom: 35px; }
 
+.about-page-quote {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 35px; }
+
 .book {
   font-size: 1.0em;
   margin-top: 50px;
@@ -2578,7 +2587,13 @@ a:hover {
   padding: 0;
   margin: 0;
   padding-bottom: 15px;
-  letter-spacing: 0; }
+  letter-spacing: -1px; }
+
+.blog-post h2 a {
+  color: #f04124; }
+
+.blog-post h2 a:hover {
+  color: #1a1e1f; }
 
 .blog-post .date {
   font-family: "ff-tisa-web-pro",serif;
