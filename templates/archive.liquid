@@ -1,5 +1,5 @@
 
-{% block title %}{{ global.blogPageTitlePrefix | escape}}{{ global.defaultPageTitle | escape}}{% endblock %}
+{% block title %}{{ global.blogArchivePageTitlePrefix | escape}}{{ global.defaultPageTitle | escape}}{% endblock %}
 
 {% block content %} 
 
@@ -20,34 +20,6 @@
 
 		</div>
 	</div>
-
-			
-
-	{% collection "blog" %}
-	  {% for post in collection.items %}
-
-
-		  <div class="row">
-
-		    <div class="large-12 columns">
-
-				<div class="blog-post">
-
-					<h2><a href="{{ post.slug }}">{{ post.title }}</a></h2>
-
-					<div class="date">{{ post.date | date: "%B %d, %Y" }}</div>
-
-				</div>
-
-			</div>
-		</div>
-
-	  {% endfor %}
-	{% endcollection %}
-
-
-
-
 
 {% endblock %}
 

@@ -4,6 +4,7 @@
 	"indexPageTitlePrefix": "Work",
 	"aboutPageTitlePrefix": "About",
 	"blogPageTitlePrefix": "Blog",
+	"blogArchivePageTitlePrefix": "Archive",
 	"pageTitleSeperator": " · ",
 	"favoriteToolsPageTitlePrefix": "Favorite Tools",
 	"favoriteBooksPageTitlePrefix": "Favorite Books",

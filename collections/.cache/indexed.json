@@ -1,55 +1,49 @@
 {
   "blog": {
     "collection": {
-      "/blog/the-secret-handshake": {
+      "/blog/improving-discovery-on-spotify": {
+        "published": true,
+        "body": "\n\n<blockquote>“Donec ullamcorper nulla non metus auctor fringilla. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam.”</blockquote>\n\n<p>Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod.</p>\n\n<p>Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>\n\n",
+        "mixture_month_year": "04/2013",
+        "ticks": 1365033600.0,
+        "date": "Thu Apr 04 00:00:00 UTC 2013",
         "layout": "blog-post",
+        "tags": [
+          "spotify",
+          "suggestions",
+          "ux"
+        ],
+        "title": "Improving Discovery On Spotify",
+        "slug": "/blog/improving-discovery-on-spotify",
+        "month": "04",
+        "mixture_date": "2013-04-04T00:00:00Z",
+        "year": "2013"
+      },
+      "/blog/the-secret-handshake": {
+        "published": true,
+        "body": "\n\n<p>A few weeks ago I found out about a site called &#8216;The Secret Handshake&#8217;. It&#8217;s a site with advice from a lot of my favorite designers, on topics like creating your Resume, the Application Process and tips on what makes a great Portfolio. I find myself visiting it at least once a week, clicking random photos to learn and be inspired.</p>\n\n<p>Check it out at <a href=\"http://www.learnthesecrethandshake.com\">www.learnthesecrethandshake.com</a>.</p>\n",
         "mixture_month_year": "04/2013",
         "ticks": 1364947200.0,
-        "month": "04",
-        "mixture_date": "2013-04-03T00:00:00Z",
-        "year": "2013",
-        "title": "The Secret Handshake",
-        "body": "\n\n<p>A few weeks ago I found out about a site called &#8216;The Secret Handshake&#8217;. It&#8217;s a site with advice from a lot of my favorite designers, on topics like creating your Resume, the Application Process and tips on what makes a great Portfolio. I find myself visiting it at least once a week, clicking random photos to learn and be inspired.</p>\n\n<p>Check it out at <a href=\"http://www.learnthesecrethandshake.com\">www.learnthesecrethandshake.com</a>.</p>\n",
+        "date": "Wed Apr 03 00:00:00 UTC 2013",
+        "layout": "blog-post",
         "tags": [
           "advice",
           "resume",
           "portfolio",
           "application process"
         ],
-        "date": "Wed Apr 03 00:00:00 UTC 2013",
+        "title": "The Secret Handshake",
         "slug": "/blog/the-secret-handshake",
-        "published": true
-      },
-      "/blog/improving-discovery-on-spotify": {
-        "layout": "blog-post",
-        "mixture_month_year": "04/2013",
-        "ticks": 1365033600.0,
         "month": "04",
-        "mixture_date": "2013-04-04T00:00:00Z",
-        "year": "2013",
-        "title": "Improving Discovery On Spotify",
-        "date": "Thu Apr 04 00:00:00 UTC 2013",
-        "tags": [
-          "spotify",
-          "suggestions",
-          "ux"
-        ],
-        "body": "\n\n<blockquote>“Donec ullamcorper nulla non metus auctor fringilla. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam.”</blockquote>\n\n<p>Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod.</p>\n\n<p>Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>\n\n",
-        "slug": "/blog/improving-discovery-on-spotify",
-        "published": true
+        "mixture_date": "2013-04-03T00:00:00Z",
+        "year": "2013"
       }
     },
     "index": {
       "layout": {
         "blog-post": [
-          "/blog/the-secret-handshake",
-          "/blog/improving-discovery-on-spotify"
-        ]
-      },
-      "month": {
-        "04": [
-          "/blog/the-secret-handshake",
-          "/blog/improving-discovery-on-spotify"
+          "/blog/improving-discovery-on-spotify",
+          "/blog/the-secret-handshake"
         ]
       },
       "ticks": {
@@ -62,22 +56,53 @@
       },
       "mixture_month_year": {
         "04/2013": [
-          "/blog/the-secret-handshake",
-          "/blog/improving-discovery-on-spotify"
+          "/blog/improving-discovery-on-spotify",
+          "/blog/the-secret-handshake"
         ]
       },
       "title": {
+        "improving discovery on spotify": [
+          "/blog/improving-discovery-on-spotify"
+        ],
         "the secret handshake": [
           "/blog/the-secret-handshake"
+        ]
+      },
+      "tags": {
+        "advice": [
+          "/blog/the-secret-handshake"
         ],
-        "improving discovery on spotify": [
+        "ux": [
+          "/blog/improving-discovery-on-spotify"
+        ],
+        "resume": [
+          "/blog/the-secret-handshake"
+        ],
+        "application process": [
+          "/blog/the-secret-handshake"
+        ],
+        "suggestions": [
+          "/blog/improving-discovery-on-spotify"
+        ],
+        "portfolio": [
+          "/blog/the-secret-handshake"
+        ],
+        "spotify": [
           "/blog/improving-discovery-on-spotify"
         ]
       },
-      "year": {
-        "2013": [
-          "/blog/the-secret-handshake",
+      "slug": {
+        "/blog/improving-discovery-on-spotify": [
           "/blog/improving-discovery-on-spotify"
+        ],
+        "/blog/the-secret-handshake": [
+          "/blog/the-secret-handshake"
+        ]
+      },
+      "month": {
+        "04": [
+          "/blog/improving-discovery-on-spotify",
+          "/blog/the-secret-handshake"
         ]
       },
       "mixture_date": {
@@ -88,34 +113,9 @@
           "/blog/improving-discovery-on-spotify"
         ]
       },
-      "tags": {
-        "ux": [
-          "/blog/improving-discovery-on-spotify"
-        ],
-        "advice": [
-          "/blog/the-secret-handshake"
-        ],
-        "suggestions": [
-          "/blog/improving-discovery-on-spotify"
-        ],
-        "portfolio": [
-          "/blog/the-secret-handshake"
-        ],
-        "application process": [
-          "/blog/the-secret-handshake"
-        ],
-        "spotify": [
-          "/blog/improving-discovery-on-spotify"
-        ],
-        "resume": [
-          "/blog/the-secret-handshake"
-        ]
-      },
-      "slug": {
-        "/blog/improving-discovery-on-spotify": [
-          "/blog/improving-discovery-on-spotify"
-        ],
-        "/blog/the-secret-handshake": [
+      "year": {
+        "2013": [
+          "/blog/improving-discovery-on-spotify",
           "/blog/the-secret-handshake"
         ]
       }

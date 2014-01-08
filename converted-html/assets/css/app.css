@@ -2379,6 +2379,14 @@ p, ul {
   font-size: 1.5em;
   line-height: 1.6em; }
 
+blockquote {
+  font-family: "ff-tisa-web-pro",serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  color: #999; }
+
 ul {
   list-style-type: circle;
   margin-left: 35px; }
@@ -2429,7 +2437,7 @@ a:hover {
   color: #1a1e1f; }
 
 #nav a.active {
-  color: #333333; }
+  color: #222222; }
 
 #nav2 a {
   color: #282828; }
@@ -2589,6 +2597,27 @@ a:hover {
 @media only screen and (max-width: 40em) {
   .blog-post h2 {
     font-size: 1.6em; } }
+p.back {
+  margin-bottom: 100px; }
+
+.next-prev {
+  margin-bottom: 50px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee; }
+
+.next-prev h4 {
+  font-family: "ff-tisa-web-pro",serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.0em;
+  color: #aaa;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 0px; }
+
+.next-prev p {
+  margin-bottom: 10px; }
+
 /* Footer */
 footer {
   padding-top: 50px;
