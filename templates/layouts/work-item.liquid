@@ -1,0 +1,73 @@
+
+
+	{% capture pageTitle %}{{ model.title | escape}}{{global.pageTitleSeperator}}{{ global.defaultPageTitle | escape}}{% endcapture %}
+
+	{% capture isProject %}true{% endcapture %}
+
+	{% include "header" with pageTitle and isProject %}
+
+		<div id="project-header">
+
+		    <div class="large-12 columns text-left">
+
+				<a href="/" class="close-big"><span>Close</span></a>
+
+				<a href="/" title="Home">
+					<div id="project-logo">RWA</div>
+				</a>
+
+			</div>
+
+		</div>
+
+		<div id="main-content" class="project-full">
+
+			<div class="row">
+				<div class="large-12 columns text-center">
+
+					<h1>{{ model.title }}</h1>
+
+
+				</div>
+			</div>
+
+
+			{% block content %}{% endblock %}
+
+		</div>
+
+		<div class="row">
+			<div class="large-12 columns">
+
+				<p class="text-center back">
+					<a href="/#projects">&#139; Back</a>
+				</p>
+
+
+			</div>
+		</div>
+
+
+  		{% include "scripts" %}
+
+  		{% include "analytics" %}
+
+	  	<script>
+
+		$(function() {
+
+			setTimeout(function() {
+				$("#project-header").addClass("visible");
+			}, 0);
+
+			setTimeout(function() {
+				$(".project-full").addClass("visible");
+			}, 300);
+			
+
+		});
+
+		</script>
+		
+	</body>
+</html>

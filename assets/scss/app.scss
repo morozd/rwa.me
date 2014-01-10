@@ -227,13 +227,43 @@ a:hover {
 
 }
 
-
 #main-content .row {
 	margin-bottom: 50px;
 }
 
 #intro .row {
 	margin-bottom: 0;
+}
+
+.quote {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 0;
+}
+
+a.cta {
+	background-color: $primary-link-color;
+	padding: 25px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	color: White;
+	border-radius: 3px;
+
+	font-family: "brandon-grotesque",sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.0em;
+
+	margin-bottom: 25px;
+	display: inline-block;
+	position: relative;
+}
+
+a.cta:hover {
+	background-color: $primary-link-hover-color;
+	
 }
 
 /* Projects */
@@ -314,16 +344,139 @@ a:hover {
 	color: $light-text-color;
 }
 
+/* Projects - Full */
+
+.project-full {
+	padding-top: 100px;
+
+	-webkit-transition: all 1.2s;
+	-moz-transition: all 1.2s;
+	transition: all 1.2s;
+	opacity: 0;
+}
+
+.project-full.visible {
+	opacity: 1.0;
+}
+
+#project-header {
+	background-color: $dark-text-color;
+	background-image: url(../img/intro-bg.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 100px;
+	padding: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	z-index: 300;
+
+	-webkit-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	transition: all 0.6s;
+	opacity: 0;
+}
+
+#project-header.visible {
+	opacity: 1.0;
+}
+
+#project-logo {
+	border: 2px solid #fff;
+	color: #fff;
+
+	font-family: "brandon-grotesque",sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 1.2em;
+
+	height: 50px;
+	width: 85px;
+	line-height: 50px;
+	text-align: center;
+}
+
+#project-logo:hover {
+	opacity: 0.8;
+}
+
+.close-big {
+	width: 50px;
+	height: 50px;
+	background-image: url(../img/close.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	display: inline-block;
+	position: relative;
+	float: right;
+}
+
+.close-big:hover {
+	opacity: 0.8;
+}
+
+.close-big span {
+	visibility: hidden;
+}
+
+.project-full h1 {
+	font-family: "brandon-grotesque",sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 3.2em;
+	letter-spacing: 0.1em;
+	color: $dark-text-color;
+	padding-bottom: 0;
+	margin-bottom: 0px;
+	letter-spacing: -0.01em;
+
+	text-transform: uppercase;
+}
+
+.project-full h2 {
+	text-align: center;
+}
+
+.full-bleed {
+	height: 700px;
+	position: relative;
+	overflow: none;
+	display: block;
+	text-align: center;
+	margin-bottom: 75px;
+}
+
+.full-bleed-photo {
+	background: no-repeat center center;
+	background-size: cover;
+	top: 0;
+	left: 0;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+	opacity: 1;
+}
+
+@media only screen and (max-width: 40em) { 
+
+	#project-logo {
+		display: none;
+	}
+
+	.project-full h1 {
+		font-size: 2em;
+	}
+}
+
 /* About */
 
 .about-photo {
 	margin-bottom: 35px;
-}
-
-.about-page-quote {
-	margin-top: 50px;
-	margin-bottom: 50px;
-	margin-left: 35px;
 }
 
 .book {
@@ -379,7 +532,7 @@ a:hover {
 	border-bottom: 1px solid #ddd;
 }
 
-.blog-post .social {
+.social {
 	margin-top: 50px;
 }
 
@@ -392,6 +545,11 @@ a:hover {
 
 p.back {
 	margin-bottom: 100px;
+}
+
+p.project-back {
+	margin-top: 75px;
+	margin-bottom: 75px;
 }
 
 .next-prev {
@@ -479,6 +637,11 @@ footer .top-link {
 	font-size: 2em;
 }
 
+footer .copyright {
+	color: #444;
+	font-size: 0.8em;
+}
+
 footer .columns {
 	padding-bottom: 100px;
 }
@@ -488,6 +651,7 @@ footer .columns {
 	footer .top-link {
 		
 		padding: 0;
+		padding-top: 25px;
 		font-size: 1.8em;
 
 	}

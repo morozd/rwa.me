@@ -1,5 +1,7 @@
 
-		{% include "header" %}
+		{% capture pageTitle %}{% block title %}{% endblock %}{% endcapture %}
+
+		{% include "header" with pageTitle %}
 		
 		<div id="main-content">
 			{% block content %}{% endblock %}
