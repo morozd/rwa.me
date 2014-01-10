@@ -1,49 +1,49 @@
 {
   "blog": {
     "collection": {
-      "/blog/improving-discovery-on-spotify": {
-        "month": "04",
-        "ticks": 1365033600.0,
-        "title": "Improving Discovery On Spotify",
-        "date": "Thu Apr 04 00:00:00 UTC 2013",
-        "mixture_date": "2013-04-04T00:00:00Z",
-        "year": "2013",
-        "published": true,
-        "tags": [
-          "spotify",
-          "suggestions",
-          "ux"
-        ],
-        "layout": "blog-post",
-        "body": "\n\n<blockquote>“Donec ullamcorper nulla non metus auctor fringilla. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam.”</blockquote>\n\n<p>Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod.</p>\n\n<p>Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>\n\n",
-        "slug": "/blog/improving-discovery-on-spotify",
-        "mixture_month_year": "04/2013"
-      },
       "/blog/the-secret-handshake": {
-        "month": "04",
-        "ticks": 1364947200.0,
-        "title": "The Secret Handshake",
-        "date": "Wed Apr 03 00:00:00 UTC 2013",
-        "mixture_date": "2013-04-03T00:00:00Z",
-        "year": "2013",
         "published": true,
+        "mixture_month_year": "04/2013",
+        "month": "04",
+        "title": "The Secret Handshake",
+        "year": "2013",
+        "date": "Wed Apr 03 00:00:00 UTC 2013",
+        "body": "\n\n<p>A few weeks ago I found out about a site called &#8216;The Secret Handshake&#8217;. It&#8217;s a site with advice from a lot of my favorite designers, on topics like creating your Resume, the Application Process and tips on what makes a great Portfolio. I find myself visiting it at least once a week, clicking random photos to learn and be inspired.</p>\n\n<p>Check it out at <a href=\"http://www.learnthesecrethandshake.com\">www.learnthesecrethandshake.com</a>.</p>\n",
+        "layout": "blog-post",
         "tags": [
           "advice",
           "resume",
           "portfolio",
           "application process"
         ],
+        "mixture_date": "2013-04-03T00:00:00Z",
+        "ticks": 1364947200.0,
+        "slug": "/blog/the-secret-handshake"
+      },
+      "/blog/improving-discovery-on-spotify": {
+        "published": true,
+        "mixture_month_year": "04/2013",
+        "month": "04",
+        "title": "Improving Discovery On Spotify",
+        "year": "2013",
+        "date": "Thu Apr 04 00:00:00 UTC 2013",
+        "body": "\n\n<blockquote>“Donec ullamcorper nulla non metus auctor fringilla. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam.”</blockquote>\n\n<p>Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod.</p>\n\n<p>Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>\n\n",
         "layout": "blog-post",
-        "body": "\n\n<p>A few weeks ago I found out about a site called &#8216;The Secret Handshake&#8217;. It&#8217;s a site with advice from a lot of my favorite designers, on topics like creating your Resume, the Application Process and tips on what makes a great Portfolio. I find myself visiting it at least once a week, clicking random photos to learn and be inspired.</p>\n\n<p>Check it out at <a href=\"http://www.learnthesecrethandshake.com\">www.learnthesecrethandshake.com</a>.</p>\n",
-        "slug": "/blog/the-secret-handshake",
-        "mixture_month_year": "04/2013"
+        "tags": [
+          "spotify",
+          "suggestions",
+          "ux"
+        ],
+        "mixture_date": "2013-04-04T00:00:00Z",
+        "ticks": 1365033600.0,
+        "slug": "/blog/improving-discovery-on-spotify"
       }
     },
     "index": {
-      "month": {
-        "04": [
-          "/blog/improving-discovery-on-spotify",
-          "/blog/the-secret-handshake"
+      "mixture_month_year": {
+        "04/2013": [
+          "/blog/the-secret-handshake",
+          "/blog/improving-discovery-on-spotify"
         ]
       },
       "title": {
@@ -54,68 +54,68 @@
           "/blog/improving-discovery-on-spotify"
         ]
       },
-      "ticks": {
-        "1364947200.0": [
-          "/blog/the-secret-handshake"
-        ],
-        "1365033600.0": [
-          "/blog/improving-discovery-on-spotify"
-        ]
-      },
-      "tags": {
-        "spotify": [
-          "/blog/improving-discovery-on-spotify"
-        ],
-        "advice": [
-          "/blog/the-secret-handshake"
-        ],
-        "suggestions": [
-          "/blog/improving-discovery-on-spotify"
-        ],
-        "ux": [
-          "/blog/improving-discovery-on-spotify"
-        ],
-        "resume": [
-          "/blog/the-secret-handshake"
-        ],
-        "application process": [
-          "/blog/the-secret-handshake"
-        ],
-        "portfolio": [
-          "/blog/the-secret-handshake"
-        ]
-      },
-      "year": {
-        "2013": [
-          "/blog/improving-discovery-on-spotify",
-          "/blog/the-secret-handshake"
-        ]
-      },
-      "mixture_date": {
-        "2013-04-03t00:00:00z": [
-          "/blog/the-secret-handshake"
-        ],
-        "2013-04-04t00:00:00z": [
+      "month": {
+        "04": [
+          "/blog/the-secret-handshake",
           "/blog/improving-discovery-on-spotify"
         ]
       },
       "layout": {
         "blog-post": [
-          "/blog/improving-discovery-on-spotify",
+          "/blog/the-secret-handshake",
+          "/blog/improving-discovery-on-spotify"
+        ]
+      },
+      "year": {
+        "2013": [
+          "/blog/the-secret-handshake",
+          "/blog/improving-discovery-on-spotify"
+        ]
+      },
+      "tags": {
+        "portfolio": [
           "/blog/the-secret-handshake"
+        ],
+        "application process": [
+          "/blog/the-secret-handshake"
+        ],
+        "spotify": [
+          "/blog/improving-discovery-on-spotify"
+        ],
+        "resume": [
+          "/blog/the-secret-handshake"
+        ],
+        "advice": [
+          "/blog/the-secret-handshake"
+        ],
+        "ux": [
+          "/blog/improving-discovery-on-spotify"
+        ],
+        "suggestions": [
+          "/blog/improving-discovery-on-spotify"
         ]
       },
       "slug": {
+        "/blog/the-secret-handshake": [
+          "/blog/the-secret-handshake"
+        ],
         "/blog/improving-discovery-on-spotify": [
           "/blog/improving-discovery-on-spotify"
+        ]
+      },
+      "ticks": {
+        "1365033600.0": [
+          "/blog/improving-discovery-on-spotify"
         ],
-        "/blog/the-secret-handshake": [
+        "1364947200.0": [
           "/blog/the-secret-handshake"
         ]
       },
-      "mixture_month_year": {
-        "04/2013": [
-          "/blog/improving-discovery-on-spotify",
+      "mixture_date": {
+        "2013-04-04t00:00:00z": [
+          "/blog/improving-discovery-on-spotify"
+        ],
+        "2013-04-03t00:00:00z": [
           "/blog/the-secret-handshake"
         ]
       }
@@ -124,22 +124,30 @@
   "work": {
     "collection": {
       "/work/dragshare": {
-        "month": "04",
-        "ticks": 1364947200.0,
-        "date": "Wed Apr 03 00:00:00 UTC 2013",
-        "title": "Dragshare for Dropbox",
-        "mixture_date": "2013-04-03T00:00:00Z",
-        "year": "2013",
         "published": true,
-        "body": "\n\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns text-center\">\n\t\t\t<img src=\"../assets/projects/dragshare-logo.png\" />\n\t\t</div>\n\n\t</div>\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>Introduction</h2>\n\n\t\t    <p>\n\t\t      \tSince Drew Houston first introduced his YC app: Dropbox - 'Throw away your USB drive' on <a href=\"https://news.ycombinator.com/item?id=8863\">HN</a> in 2007, the way we sync and share files hasn't been the same. <br />If you're not yet familiar with the concept of Dropbox;\n\t\t    </p>\n\n\t\t      <blockquote class=\"quote\">Dropbox is a home for all your photos, docs, videos, and files. Anything you add to Dropbox will automatically show up on all your computers, phones and even the Dropbox website — so you can access your stuff from anywhere.\n\t\t        <div class=\"author\"><cite><a title=\"Dropbox - Tour\" href=\"https://www.dropbox.com/tour/1\">Dropbox - Tour</a></cite>\n\t\t        </div>\n\t\t      </blockquote>\n\n\t\t    <p>\n\t\t      \tI use Dropbox every day. It's the place where I store all my photos and sync them to/from my iPhone automatically, it's the service I use to sync files with clients, co-workers and friends. It's fast, reliable and best of all: very easy to use.\n\t\t    </p>\n\n\t\t    <p>\n\t\t      \tFiles on Dropbox are private by default. As long as you don't give anyone access to your files or specific folders, no-one else can view or download them. \n\t\t      \t<br />\n\t\t\t\tOne of the great features of Dropbox is being able to share a file or folder with a public url, like this. You can, for example, use this feature to share a photo or any other image on Twitter where people can view it (even if they don't have a Dropbox account), or you can use it to quickly share a folder with a client without having to give them special permissions to sync the folder in their own Dropbox.\n\t\t\t</p>\n\n\n\t\t</div>\n\n\t</div>\n\n\n\n    <div class=\"full-bleed\">\n      \n        <div class=\"full-bleed-photo\" style=\"background-image:url(../assets/projects/dragshare2.JPG);\"></div>\n\n    </div>\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>The problem</h2>\n\n\t\t    <p>\n\t\t      \tSharing a file through Dropbox is easy, but it's not a one step process. Let's say you want to share a .png file of a design you made with your followers on Twitter. You have to go to your Dropbox folder in Finder, place the file you want to share somewhere in your Dropbox folder, right-click it, click 'Share Dropbox-link' and then you're able to share the link with others. If sharing files is something you do on a daily basis, this process can be a bit devious.\n\t\t    </p>\n\n\t\t</div>\n\t\t\n\t</div>\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>Don't pay twice</h2>\n\n\t\t    <p>\n\t\t      \tDropbox was not the only services that made file sharing possible. There were a couple of other services that focused on file sharing only. Those other services had apps that made sharing files more easy, but the downside was that if you already own a Dropbox account, you now had to pay again for that other service. This could be a waste of money for some people. \n\t\t    </p>\n\n\t\t</div>\n\t\t\n\t</div>\n\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>Security</h2>\n\n\t\t    <p>\n\t\t      \tAnother issue with services (other than Dropbox) is that your files are stored on their thirdparty server, which you might or might not trust. Dropbox on the other hand does everything they can possibly do to make sure your files are <a href=\"https://www.dropbox.com/help/27/en\">safe</a>.\n\t\t    </p>\n\n\t\t</div>\n\t\t\n\t</div>\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>The solution</h2>\n\n\t\t    <p>\n\t\t      \tWith all of the above in mind, I thought I'd save myself some time and money and create an app that had made sharing files through your existing Dropbox account really easy. \n\t\t\t\tOn a friday evening with a few beers and some music, Dragshare was born.\n\t\t\t\tThe result was a menu bar item app for your Mac, that can be used to drag files too which automatically turn into a Dropbox-link. When you drag a file to the menu bar icon, it puts the file in your Dropbox, creates the Dropbox-link that you can share and copies it your clipboard, all in a single step. Just drag & drop. \n\t\t\t\tNo need to pay for another service. None of your files stored on a server that you do not trust. Just fast and easy file sharing.\n\t\t    </p>\n\n\t\t</div>\n\t\t\n\t</div>\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns text-center\">\n\t\t\t<img src=\"../assets/projects/dragshare2.png\" />\n\t\t</div>\n\n\t</div>\n\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>Other features</h2>\n\n\t\t    <p>\n\t\t      \tA lot of people have different use cases when they are sharing files. Some people share a single file, others want to share complete folders. Some people just want to copy/paste the Dropbox-link somewhere themselves, others want to post it on Twitter or Facebook as quickly as possible, or email the link to a co-worker. \n\t\t\t\tSome people love the default landing page when sharing a file through Dropbox, other people want to completely customize it. All of this is possible with Dragshare. Check out the video if you'd like to see how it all works, or read the documentation of you have any questions regarding themes or other features.\n\t\t    </p>\n\n\t\t</div>\n\t\t\n\t</div>\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>What others say</h2>\n\n\t\t    <p>\n\t\t      \tSince it's launch in December, 2013, Dragshare has been getting a lot of positive reviews. A lot of people seem to have the same problem and are looking for a way to fix it. Dragshare makes sharing files really easy.\n\t\t    </p>\n\n\t\t</div>\n\t\t\n\t</div>\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>Download</h2>\n\n\t\t    <p>\n\t\t      \tDragshare is available as a Mac app through the <a href=\"https://itunes.apple.com/us/app/dragshare/id707059884?ls=1&mt=12\">Mac App Store</a>, for a price of $1.99  (or equivalent amount in other currencies).\n\t\t\t\tIf you want to try it for free first, there's a free 15-day (fully functional) trial available on the Dragshare <a href=\"http://dragshare.co\">website</a>.\n\t\t    </p>\n\n\t\t</div>\n\t\t\n\t</div>\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns text-center\">\n\n\t\t    <a href=\"http://dragshare.co\" class=\"cta\">Visit the Dragshare website</a>\n\n\t\t</div>\n\t\t\n\t</div>\n\n\n",
+        "mixture_month_year": "04/2013",
+        "client": "Personal",
+        "month": "04",
+        "title": "Dragshare for Dropbox",
+        "year": "2013",
+        "body": "\n\t\t\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns text-center\">\n\t\t\t<img src=\"../assets/projects/dragshare-logo.png\" />\n\t\t</div>\n\n\t</div>\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t\t<dl class=\"project-details\">\n\t\t\t\t<dt>Client</dt>\n\t\t\t\t<dd>Personal</dd>\n\t\t\t\t<dt>Responsible for</dt>\n\t\t\t\t<dd>Idea, Design, Development</dd>\n\t\t\t\t<dt>Type</dt>\n\t\t\t\t<dd>Mac OS X App</dd>\n\t\t\t</dl>\n\n\t\t</div>\n\t\t\n\t</div>\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>Introduction</h2>\n\n\t\t    <p>\n\t\t      \tSince Drew Houston first introduced his YC app: Dropbox - 'Throw away your USB drive' on <a href=\"https://news.ycombinator.com/item?id=8863\">HN</a> in 2007, the way we sync and share files hasn't been the same. For those of you who are not yet familiar with the concept of Dropbox;\n\t\t    </p>\n\n\t\t      <blockquote class=\"quote\">Dropbox is a home for all your photos, docs, videos, and files. Anything you add to Dropbox will automatically show up on all your computers, phones and even the Dropbox website — so you can access your stuff from anywhere.\n\t\t        <div class=\"author\"><cite><a title=\"Dropbox - Tour\" href=\"https://www.dropbox.com/tour/1\">Dropbox - Tour</a></cite>\n\t\t        </div>\n\t\t      </blockquote>\n\n\t\t    <p>\n\t\t      \tI use Dropbox every day. It's the place where I store all my photos and sync them to/from my iPhone automatically, it's the service I use to sync files with clients, co-workers and friends. It's fast, reliable and best of all: very easy to use.\n\t\t    </p>\n\n\t\t    <p>\n\t\t      \tFiles on Dropbox are private by default. As long as you don't give anyone access to your files or specific folders, no-one else can view or download them. \n\t\t      \t<br />\n\t\t\t\tOne of the great features of Dropbox is being able to share a file or folder with a public url, like this. You can, for example, use this feature to share a photo or any other image on Twitter where people can view it (even if they don't have a Dropbox account), or you can use it to quickly share a folder with a client without having to give them special permissions to sync the folder in their own Dropbox.\n\t\t\t</p>\n\n\n\t\t</div>\n\n\t</div>\n\n\n\n    <div class=\"full-bleed\">\n      \n        <div class=\"full-bleed-photo\" style=\"background-image:url(../assets/projects/dragshare2.JPG);\"></div>\n\n    </div>\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>The problem</h2>\n\n\t\t    <p>\n\t\t      \tSharing a file through Dropbox is easy, but it's not a one step process. Let's say you want to share a .png file of a design you made with your followers on Twitter. You have to go to your Dropbox folder in Finder, place the file you want to share somewhere in your Dropbox folder, right-click it, click 'Share Dropbox-link' and then you're able to share the link with others. If sharing files is something you do on a daily basis, this process can be a bit devious.\n\t\t    </p>\n\n\t\t</div>\n\t\t\n\t</div>\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>Don't pay twice</h2>\n\n\t\t    <p>\n\t\t      \tDropbox was not the only services that made file sharing possible. There were a couple of other services that focused on file sharing only. Those other services had apps that made sharing files more easy, but the downside was that if you already own a Dropbox account, you now had to pay again for that other service. This could be a waste of money for some people. \n\t\t    </p>\n\n\t\t</div>\n\t\t\n\t</div>\n\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>Security</h2>\n\n\t\t    <p>\n\t\t      \tAnother issue with services (other than Dropbox) is that your files are stored on their thirdparty server, which you might or might not trust. Dropbox on the other hand does everything they can possibly do to make sure your files are <a href=\"https://www.dropbox.com/help/27/en\">safe</a>.\n\t\t    </p>\n\n\t\t</div>\n\t\t\n\t</div>\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>The solution</h2>\n\n\t\t    <p>\n\t\t      \tWith all of the above in mind, I thought I'd save myself some time and money and create an app that had made sharing files through your existing Dropbox account really easy. \n\t\t\t\tOn a friday evening with a few beers and some music, Dragshare was born.\n\t\t\t\tThe result was a menu bar item app for your Mac, that can be used to drag files too which automatically turn into a Dropbox-link. When you drag a file to the menu bar icon, it puts the file in your Dropbox, creates the Dropbox-link that you can share and copies it your clipboard, all in a single step. Just drag & drop. \n\t\t\t\tNo need to pay for another service. None of your files stored on a server that you do not trust. Just fast and easy file sharing.\n\t\t    </p>\n\n\t\t</div>\n\t\t\n\t</div>\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns text-center\">\n\t\t\t<img src=\"../assets/projects/dragshare2.png\" />\n\t\t</div>\n\n\t</div>\n\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>Other features</h2>\n\n\t\t    <p>\n\t\t      \tA lot of people have different use cases when they are sharing files. Some people share a single file, others want to share complete folders. Some people just want to copy/paste the Dropbox-link somewhere themselves, others want to post it on Twitter or Facebook as quickly as possible, or email the link to a co-worker. \n\t\t\t\tSome people love the default landing page when sharing a file through Dropbox, other people want to completely customize it. All of this is possible with Dragshare. Check out the video if you'd like to see how it all works, or read the documentation of you have any questions regarding themes or other features.\n\t\t    </p>\n\n\t\t</div>\n\t\t\n\t</div>\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>What others say</h2>\n\n\t\t    <p>\n\t\t      \tSince it's launch in December, 2013, Dragshare has been getting a lot of positive reviews. A lot of people seem to have the same problem and are looking for a way to fix it. Dragshare makes sharing files really easy.\n\t\t    </p>\n\n\t\t</div>\n\t\t\n\t</div>\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>Download</h2>\n\n\t\t    <p>\n\t\t      \tDragshare is available as a Mac app through the <a href=\"https://itunes.apple.com/us/app/dragshare/id707059884?ls=1&mt=12\">Mac App Store</a>, for a price of $1.99  (or equivalent amount in other currencies).\n\t\t\t\tIf you want to try it for free first, there's a free 15-day (fully functional) trial available on the Dragshare <a href=\"http://dragshare.co\">website</a>.\n\t\t    </p>\n\n\t\t</div>\n\t\t\n\t</div>\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns text-center\">\n\n\t\t    <a href=\"http://dragshare.co\" class=\"cta\">Visit the Dragshare website</a>\n\n\t\t</div>\n\t\t\n\t</div>\n\n\n",
         "layout": "work-item",
+        "date": "Wed Apr 03 00:00:00 UTC 2013",
+        "mixture_date": "2013-04-03T00:00:00Z",
+        "ticks": 1364947200.0,
         "slug": "/work/dragshare",
-        "mixture_month_year": "04/2013"
+        "role": "Idea, Design, Development",
+        "type": "Mac OS X App"
       }
     },
     "index": {
-      "month": {
-        "04": [
+      "client": {
+        "personal": [
+          "/work/dragshare"
+        ]
+      },
+      "mixture_month_year": {
+        "04/2013": [
           "/work/dragshare"
         ]
       },
@@ -148,18 +156,8 @@
           "/work/dragshare"
         ]
       },
-      "ticks": {
-        "1364947200.0": [
-          "/work/dragshare"
-        ]
-      },
-      "year": {
-        "2013": [
-          "/work/dragshare"
-        ]
-      },
-      "mixture_date": {
-        "2013-04-03t00:00:00z": [
+      "month": {
+        "04": [
           "/work/dragshare"
         ]
       },
@@ -168,13 +166,33 @@
           "/work/dragshare"
         ]
       },
+      "year": {
+        "2013": [
+          "/work/dragshare"
+        ]
+      },
       "slug": {
         "/work/dragshare": [
           "/work/dragshare"
         ]
       },
-      "mixture_month_year": {
-        "04/2013": [
+      "ticks": {
+        "1364947200.0": [
+          "/work/dragshare"
+        ]
+      },
+      "mixture_date": {
+        "2013-04-03t00:00:00z": [
+          "/work/dragshare"
+        ]
+      },
+      "role": {
+        "idea, design, development": [
+          "/work/dragshare"
+        ]
+      },
+      "type": {
+        "mac os x app": [
           "/work/dragshare"
         ]
       }

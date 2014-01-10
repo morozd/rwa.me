@@ -6,68 +6,49 @@
 
 	{% include "header" with pageTitle and isProject %}
 
-		<div id="project-header">
 
-		    <div class="large-12 columns text-left">
+	<div class="row">
+		<div class="large-12 columns">
+			<h1 class="project-name">{{ model.title }}</h1>
+		</div>
+	</div>
 
-				<a href="/" class="close-big"><span>Close</span></a>
+	<div id="main-content" class="project-full">
 
-				<a href="/" title="Home">
-					<div id="project-logo">RWA</div>
-				</a>
+		{% block content %}{% endblock %}
 
-			</div>
+	</div>
+
+	<div class="row">
+		<div class="large-12 columns">
+
+			<p class="text-center back">
+				<a href="/#projects">&#139; All projects</a>
+			</p>
+
 
 		</div>
-
-		<div id="main-content" class="project-full">
-
-			<div class="row">
-				<div class="large-12 columns text-center">
-
-					<h1>{{ model.title }}</h1>
+	</div>
 
 
-				</div>
-			</div>
+	{% include "footer" %}
 
+	{% block scripts %}
+  	<script>
 
-			{% block content %}{% endblock %}
+	$(function() {
 
-		</div>
+		setTimeout(function() {
+			$("#project-header").addClass("visible");
+		}, 0);
 
-		<div class="row">
-			<div class="large-12 columns">
-
-				<p class="text-center back">
-					<a href="/#projects">&#139; Back</a>
-				</p>
-
-
-			</div>
-		</div>
-
-
-  		{% include "scripts" %}
-
-  		{% include "analytics" %}
-
-	  	<script>
-
-		$(function() {
-
-			setTimeout(function() {
-				$("#project-header").addClass("visible");
-			}, 0);
-
-			setTimeout(function() {
-				$(".project-full").addClass("visible");
-			}, 300);
-			
-
-		});
-
-		</script>
+		setTimeout(function() {
+			$(".project-full").addClass("visible");
+		}, 300);
 		
-	</body>
-</html>
+
+	});
+
+	</script>
+	{% endblock %}
+	

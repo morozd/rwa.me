@@ -125,6 +125,7 @@ a:hover {
 	background-image: url(../img/line.png);
 	background-repeat: no-repeat;
 	background-position: top center;
+	z-index: 300;
 }
 
 #logo {
@@ -141,6 +142,7 @@ a:hover {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+	z-index: 300;
 }
 
 #nav {
@@ -151,6 +153,7 @@ a:hover {
 	text-transform: uppercase;
 	padding-top: 25px;
 	padding-bottom: 25px;
+	z-index: 300;
 }
 
 #nav a {
@@ -347,93 +350,55 @@ a.cta:hover {
 /* Projects - Full */
 
 .project-full {
-	padding-top: 100px;
 
 	-webkit-transition: all 1.2s;
 	-moz-transition: all 1.2s;
 	transition: all 1.2s;
 	opacity: 0;
+
 }
 
 .project-full.visible {
 	opacity: 1.0;
 }
 
-#project-header {
-	background-color: $dark-text-color;
-	background-image: url(../img/intro-bg.png);
-	background-repeat: no-repeat;
-	background-position: top center;
-	height: 100px;
-	padding: 25px;
-	padding-left: 10px;
-	padding-right: 10px;
-	position: fixed;
-	left: 0;
-	top: 0;
-	right: 0;
-	z-index: 300;
-
-	-webkit-transition: all 0.6s;
-	-moz-transition: all 0.6s;
-	transition: all 0.6s;
-	opacity: 0;
-}
-
-#project-header.visible {
-	opacity: 1.0;
-}
-
-#project-logo {
-	border: 2px solid #fff;
-	color: #fff;
-
+h1.project-name {
 	font-family: "brandon-grotesque",sans-serif;
 	font-style: normal;
 	font-weight: 900;
-	font-size: 1.2em;
-
-	height: 50px;
-	width: 85px;
-	line-height: 50px;
-	text-align: center;
-}
-
-#project-logo:hover {
-	opacity: 0.8;
-}
-
-.close-big {
-	width: 50px;
-	height: 50px;
-	background-image: url(../img/close.png);
-	background-repeat: no-repeat;
-	background-position: top left;
-	display: inline-block;
-	position: relative;
-	float: right;
-}
-
-.close-big:hover {
-	opacity: 0.8;
-}
-
-.close-big span {
-	visibility: hidden;
-}
-
-.project-full h1 {
-	font-family: "brandon-grotesque",sans-serif;
-	font-style: normal;
-	font-weight: 900;
-	font-size: 3.2em;
+	font-size: 6.0em;
 	letter-spacing: 0.1em;
-	color: $dark-text-color;
-	padding-bottom: 0;
-	margin-bottom: 0px;
-	letter-spacing: -0.01em;
-
+	color: #ddd;
+	letter-spacing: -0.05em;
+	margin: 0;
+	padding: 0;
 	text-transform: uppercase;
+	text-align: center;
+	margin-top: 100px;
+
+}
+
+dl.project-details {
+	font-family: "ff-tisa-web-pro",serif;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.0em;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+dl.project-details dt {
+	text-transform: uppercase;
+	color: #ddd;
+	font-size: 0.8em;
+}
+
+dl.project-details dd {
+	color: $light-text-color;
+	margin-bottom: 35px;
+	font-size: 1.2em;
+	display: block;
 }
 
 .project-full h2 {

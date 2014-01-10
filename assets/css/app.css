@@ -2404,7 +2404,8 @@ a:hover {
 #top-container {
   background-image: url(../img/line.png);
   background-repeat: no-repeat;
-  background-position: top center; }
+  background-position: top center;
+  z-index: 300; }
 
 #logo {
   border: 3px solid #1a1e1f;
@@ -2417,7 +2418,8 @@ a:hover {
   padding: 22px;
   text-align: center;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  z-index: 300; }
 
 #nav {
   font-family: "brandon-grotesque",sans-serif;
@@ -2426,7 +2428,8 @@ a:hover {
   font-size: 1.0em;
   text-transform: uppercase;
   padding-top: 25px;
-  padding-bottom: 25px; }
+  padding-bottom: 25px;
+  z-index: 300; }
 
 #nav a {
   color: #f04124;
@@ -2581,7 +2584,6 @@ a.cta:hover {
 
 /* Projects - Full */
 .project-full {
-  padding-top: 100px;
   -webkit-transition: all 1.2s;
   -moz-transition: all 1.2s;
   transition: all 1.2s;
@@ -2590,70 +2592,39 @@ a.cta:hover {
 .project-full.visible {
   opacity: 1.0; }
 
-#project-header {
-  background-color: #1a1e1f;
-  background-image: url(../img/intro-bg.png);
-  background-repeat: no-repeat;
-  background-position: top center;
-  height: 100px;
-  padding: 25px;
-  padding-left: 10px;
-  padding-right: 10px;
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  z-index: 300;
-  -webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  transition: all 0.6s;
-  opacity: 0; }
-
-#project-header.visible {
-  opacity: 1.0; }
-
-#project-logo {
-  border: 2px solid #fff;
-  color: #fff;
+h1.project-name {
   font-family: "brandon-grotesque",sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 1.2em;
-  height: 50px;
-  width: 85px;
-  line-height: 50px;
-  text-align: center; }
-
-#project-logo:hover {
-  opacity: 0.8; }
-
-.close-big {
-  width: 50px;
-  height: 50px;
-  background-image: url(../img/close.png);
-  background-repeat: no-repeat;
-  background-position: top left;
-  display: inline-block;
-  position: relative;
-  float: right; }
-
-.close-big:hover {
-  opacity: 0.8; }
-
-.close-big span {
-  visibility: hidden; }
-
-.project-full h1 {
-  font-family: "brandon-grotesque",sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 3.2em;
+  font-size: 6.0em;
   letter-spacing: 0.1em;
-  color: #1a1e1f;
-  padding-bottom: 0;
-  margin-bottom: 0px;
-  letter-spacing: -0.01em;
-  text-transform: uppercase; }
+  color: #ddd;
+  letter-spacing: -0.05em;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 100px; }
+
+dl.project-details {
+  font-family: "ff-tisa-web-pro",serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.0em;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 50px; }
+
+dl.project-details dt {
+  text-transform: uppercase;
+  color: #ddd;
+  font-size: 0.8em; }
+
+dl.project-details dd {
+  color: #999999;
+  margin-bottom: 35px;
+  font-size: 1.2em;
+  display: block; }
 
 .project-full h2 {
   text-align: center; }
