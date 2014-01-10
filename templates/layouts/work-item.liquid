@@ -6,14 +6,13 @@
 
 	{% include "header" with pageTitle and isProject %}
 
-
-	<div class="row">
-		<div class="large-12 columns">
-			<h1 class="project-name">{{ model.title }}</h1>
-		</div>
-	</div>
-
 	<div id="main-content" class="project-full">
+
+		<div class="row">
+			<div class="large-12 columns">
+				<h1 class="project-name">{{ model.title }}</h1>
+			</div>
+		</div>
 
 		{% block content %}{% endblock %}
 
