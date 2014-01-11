@@ -2520,6 +2520,30 @@ a.cta {
 a.cta:hover {
   background-color: #1a1e1f; }
 
+a.navigate-down {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  background-image: url(../img/navigate-down.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 9999999;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s; }
+
+a.navigate-down:hover {
+  opacity: 0.8; }
+
+a.navigate-down.hide {
+  opacity: 0; }
+
+a.navigate-down span {
+  visibility: hidden; }
+
 /* Projects */
 #projects {
   margin-bottom: 50px; }
@@ -2655,7 +2679,7 @@ dl.project-details dd {
     display: none; }
 
   .project-full h1 {
-    font-size: 2em; } }
+    font-size: 3em; } }
 /* About */
 .about-photo {
   margin-bottom: 35px; }
