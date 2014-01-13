@@ -14,25 +14,28 @@ function smoothScroll(el, to, duration) {
 
 $(".navigate-down").click(function(e) {
 
-	$(this).addClass("hide");
+	$(this).addClass("hidden");
+	$(".navigate-down-bg").addClass("hidden");
 	$("#logo-small").addClass("visible");
 
 	e.preventDefault();
-	smoothScroll($(window), $("#project-details").offset().top-40, 400);
+	smoothScroll($(window), $("#project-details").offset().top-20, 400);
 });
 
 $( window ).scroll(function() {
 
 	if ($(window).scrollTop() == 0)
 	{
-		$(".navigate-down").removeClass("hide");
-		$("#logo-small").removeClass("visible");
+		// $(".navigate-down").removeClass("hidden");
+		// $(".navigate-down-bg").removeClass("hidden");
+		// $("#logo-small").removeClass("visible");
 	}
 	else
 	{
-		if ($(".navigate-down").hasClass("hide") == false)
+		if ($(".navigate-down").hasClass("hidden") == false)
 		{
-			$(".navigate-down").addClass("hide");
+			$(".navigate-down").addClass("hidden");
+			$(".navigate-down-bg").addClass("hidden");
 			$("#logo-small").addClass("visible");
 		}
 	}
