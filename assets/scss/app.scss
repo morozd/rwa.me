@@ -12,7 +12,6 @@
 @import "foundation/components/Type";
 @import "foundation/components/Sub-Nav";
 
-
 $bg-color: #f9f8f3;
 $bg-img: url(../img/old_moon.png);
 
@@ -226,7 +225,7 @@ a:hover {
 #main-content {
 	display: block;
 	/*height: 100%;*/
-	margin-top: 75px;
+	padding-top: 75px;
 
 }
 
@@ -267,35 +266,6 @@ a.cta {
 a.cta:hover {
 	background-color: $primary-link-hover-color;
 	
-}
-
-a.navigate-down {
-	display: inline-block;
-	width: 90px;
-	height: 90px;
-	background-image:url(../img/navigate-down.png);
-	background-repeat: no-repeat;
-	background-position: center center;
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	z-index: 9999999;
-
-	-webkit-transition: all 0.4s;
-	-moz-transition: all 0.4s;
-	transition: all 0.4s;
-}
-
-a.navigate-down:hover {
-	opacity: 0.8;
-}
-
-a.navigate-down.hide {
-	opacity: 0;
-}
-
-a.navigate-down span {
-	visibility: hidden;
 }
 
 /* Projects */
@@ -378,16 +348,112 @@ a.navigate-down span {
 
 /* Projects - Full */
 
+.project-container {
+
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+.project-container.dragshare {
+	background-image: url(../projects/dragshare-bg.png);
+}
+
 .project-full {
 
 	-webkit-transition: all 1.2s;
 	-moz-transition: all 1.2s;
 	transition: all 1.2s;
 	opacity: 0;
-
 }
 
 .project-full.visible {
+	opacity: 1.0;
+}
+
+a.close-big {
+	background-image: url(../img/close.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	z-index: 300;
+	position: fixed;
+	right: 20px;
+	top: 20px;
+	width: 50px;
+	height: 50px;
+
+	-webkit-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
+	-moz-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
+	transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
+}
+
+a.close-big:hover {
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+a.close-big span {
+	visibility: hidden;
+}
+
+a.navigate-down {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-image:url(../img/navigate-down2.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: fixed;
+	right: 20px;
+	bottom: 10px;
+	z-index: 9999999;
+
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+a.navigate-down:hover {
+	opacity: 0.8;
+}
+
+a.navigate-down.hide {
+	opacity: 0;
+}
+
+a.navigate-down span {
+	visibility: hidden;
+}
+
+#logo-small {
+	border: 2px solid $dark-text-color;
+	color: $dark-text-color;
+
+	font-family: "brandon-grotesque",sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 1em;
+
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+
+	width: 4em;
+	padding: 10px;
+	text-align: center;
+	z-index: 300;
+
+	-webkit-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
+	-moz-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
+	transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
+
+
+	opacity: 0.1;
+}
+
+#logo-small:hover {
 	opacity: 1.0;
 }
 
@@ -397,7 +463,7 @@ h1.project-name {
 	font-weight: 900;
 	font-size: 6.0em;
 	letter-spacing: 0.1em;
-	color: #ddd;
+	color: #ccc;
 	letter-spacing: -0.05em;
 	margin: 0;
 	padding: 0;
@@ -420,12 +486,12 @@ dl.project-details {
 
 dl.project-details dt {
 	text-transform: uppercase;
-	color: #ddd;
+	color: #ccc;
 	font-size: 0.8em;
 }
 
 dl.project-details dd {
-	color: $light-text-color;
+	color: #888;
 	margin-bottom: 35px;
 	font-size: 1.2em;
 	display: block;

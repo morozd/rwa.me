@@ -6,31 +6,48 @@
 
 	{% include "header" with pageTitle and isProject %}
 
-	<a href="#" class="navigate-down"><span>Navigate down</span></a>
+	<div class="project-container {{model.bgPrefix}}">
 
-	<div id="main-content" class="project-full">
+		<a href="/" class="close-big"><span>Close</span></a>
+
+		<a href="/" id="logo-small">RWA</a>
+
+		<a href="#" class="navigate-down"><span>Navigate down</span></a>
+
+		<div id="main-content" class="project-full">
+
+			<div class="row">
+				<div class="large-12 columns">
+					<h1 class="project-name">{{ model.title }}</h1>
+				</div>
+			</div>
+
+			{% block content %}{% endblock %}
+
+			<div class="row">
+
+				<div class="large-12 columns text-center">
+
+				    <a href="http://twitter.com/rickwaalders" class="cta">Follow me on Twitter</a>
+
+				</div>
+				
+			</div>
+
+		</div>
 
 		<div class="row">
 			<div class="large-12 columns">
-				<h1 class="project-name">{{ model.title }}</h1>
+
+				<p class="text-center back">
+					<a href="/#projects">&#139; All projects</a>
+				</p>
+
+
 			</div>
 		</div>
 
-		{% block content %}{% endblock %}
-
 	</div>
-
-	<div class="row">
-		<div class="large-12 columns">
-
-			<p class="text-center back">
-				<a href="/#projects">&#139; All projects</a>
-			</p>
-
-
-		</div>
-	</div>
-
 
 	{% include "footer" %}
 

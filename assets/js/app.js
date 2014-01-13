@@ -15,9 +15,10 @@ function smoothScroll(el, to, duration) {
 $(".navigate-down").click(function(e) {
 
 	$(this).addClass("hide");
+	$("#logo-small").addClass("visible");
 
 	e.preventDefault();
-	smoothScroll($(window), $("#main-content").offset().top, 400);
+	smoothScroll($(window), $("#project-details").offset().top-40, 400);
 });
 
 $( window ).scroll(function() {
@@ -25,12 +26,14 @@ $( window ).scroll(function() {
 	if ($(window).scrollTop() == 0)
 	{
 		$(".navigate-down").removeClass("hide");
+		$("#logo-small").removeClass("visible");
 	}
 	else
 	{
 		if ($(".navigate-down").hasClass("hide") == false)
 		{
 			$(".navigate-down").addClass("hide");
+			$("#logo-small").addClass("visible");
 		}
 	}
 });
