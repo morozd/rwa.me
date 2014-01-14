@@ -1,5 +1,5 @@
 // Make sure the charset is set appropriately
-@charset "UTF-8";
+@charset "UTF-8"; 
 
 // Global Foundation Settings
 @import "foundation/settings";
@@ -23,6 +23,13 @@ $dark-text-color: #1a1e1f;
 $light-text-color: #999;
 
 $primary-color: #1effbe;
+
+
+@mixin transition($transition) {
+	-webkit-transition: $transition;
+	-moz-transition: $transition;
+	transition: $transition;
+}
 
 
 // User styles
@@ -359,10 +366,7 @@ a.cta:hover {
 }
 
 .project-full {
-
-	-webkit-transition: all 1.2s;
-	-moz-transition: all 1.2s;
-	transition: all 1.2s;
+	@include transition(all 1.2s);
 	opacity: 0;
 }
 
@@ -408,12 +412,11 @@ a.close-big span {
 	background-image: url(../img/bottom-fade.png);
 	background-repeat: repeat-x;
 	background-position: top left;
+	z-index: 99999;
 
 	-webkit-transition: all 0.4s;
 	-moz-transition: all 0.4s;
 	transition: all 0.4s;
-
-	z-index: 99999;
 }
 
 .navigate-down-bg.hidden {
@@ -448,21 +451,18 @@ a.navigate-down.hidden {
 
 a.navigate-down span {
 	visibility: hidden;
-}
+} 
 
 #logo-small {
 	border: 2px solid $dark-text-color;
 	color: $dark-text-color;
-
 	font-family: "brandon-grotesque",sans-serif;
 	font-style: normal;
 	font-weight: 900;
 	font-size: 1em;
-
 	position: fixed;
 	bottom: 20px;
 	left: 20px;
-
 	width: 4em;
 	padding: 10px;
 	text-align: center;
@@ -472,8 +472,12 @@ a.navigate-down span {
 	-moz-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
 	transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
 
-	opacity: 0.1;
+	opacity: 0.15;
 }
+
+// #logo-small.visible {
+// 	opacity: 1.0;
+// }
 
 #logo-small:hover {
 	opacity: 1.0;
@@ -532,6 +536,11 @@ dl.project-details dd {
 	margin-bottom: 75px;
 }
 
+.full-bleed.inline {
+	margin-bottom: 25px;
+	height: auto;
+}
+
 .full-bleed-photo {
 	background: no-repeat center center;
 	background-size: cover;
@@ -543,6 +552,10 @@ dl.project-details dd {
 	width: 100%;
 	z-index: 2;
 	opacity: 1;
+}
+
+.inline-photo {
+	max-width: 100%;
 }
 
 @media only screen and (max-width: 40em) { 

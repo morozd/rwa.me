@@ -13,6 +13,9 @@
   "projectDescription": "Portfolio",
   "projectName": "rwa",
   "publishedId": null,
+  "sass": {
+    "useLibSass": true
+  },
   "serverHostname": "localhost",
   "serverPort": null,
   "simpleModePartnerServer": null,

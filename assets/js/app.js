@@ -19,7 +19,7 @@ $(".navigate-down").click(function(e) {
 	$("#logo-small").addClass("visible");
 
 	e.preventDefault();
-	smoothScroll($(window), $("#project-details").offset().top-20, 400);
+	smoothScroll($(window), $("#project-details").offset().top, 400);
 });
 
 $( window ).scroll(function() {
