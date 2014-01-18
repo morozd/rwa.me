@@ -31,10 +31,8 @@
 
 		<div class="row">
 	    	<div class="large-12 columns text-center">
-				<div id="nav">
-				  <a href="/"{% if mixture.url == "index" %} class="active"{% endif %}>Work</a>
-				  <a href="/blog/"{% if mixture.url == "blog" %} class="active"{% endif %}>Blog</a>
-				  <a href="/about/"{% if mixture.url == "about" %} class="active"{% endif %}>About</a>
+	    		<div id="nav">
+					{% include "nav" %}
 				</div>
 			</div>
 
