@@ -6,7 +6,14 @@
 
 	{% include "header" with pageTitle and isProject %}
 
-	<div class="project-container {{model.bgPrefix}}">
+	<div id="loader">
+	    <div class="spinner">
+			<div class="cube1"></div>
+			<div class="cube2"></div>
+	    </div>
+    </div>
+
+	<div class="project-container {{model.bgPrefix}} {{model.topStyle}}">
 
 		<a href="/" class="close-big"><span>Close</span></a>
 
@@ -29,7 +36,7 @@
 
 				<div class="large-12 columns text-center">
 
-				    <a href="http://twitter.com/rickwaalders" class="cta">Follow me on Twitter</a>
+				    <a href="http://twitter.com/rickwaalders" target="_blank" class="cta">Follow me on Twitter</a>
 
 				</div>
 				
@@ -50,6 +57,29 @@
 
 	</div>
 
+	<div id="work-footer">
+
+		{% item order desc %}
+
+			{% if next %}
+				<a href="{{ next.url }}" class="nxtprv nxt">Next Project</a>
+			{% else %}
+				<div class="nxtprv nxt disabled">Next Project</div>
+			{% endif %}
+
+			{% if previous %}
+				<a href="{{ previous.url }}" class="nxtprv prv">Previous Project</a>
+			{% else %}
+				<div class="nxtprv prv disabled">Previous Project</div>
+			{% endif %}
+
+		{% enditem %}
+
+		<a href="http://twitter.com/rickwaalders" class="tw"><span>@rickwaalders</span></a>
+
+
+	</div>
+
 	{% include "footer" %}
 
 	{% block scripts %}
@@ -65,6 +95,12 @@
 			$(".project-full").addClass("visible");
 		}, 300);
 
+
+		setTimeout(function() {
+			$("#loader").addClass("hidden");
+			$("html").removeClass("scrolldisabled");
+			$("body").removeClass("scrolldisabled");
+		}, 1200);
 	});
 
 	</script>
