@@ -2388,6 +2388,13 @@ dl.project-details dd {
 .inline-photo {
   max-width: 100%; }
 
+.inline-photo.realpx-iphone {
+  max-width: 1100px; }
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .inline-photo.realpx-iphone {
+    max-width: 550px; } }
+
 @media only screen and (max-width: 40em) {
   #project-logo {
     display: none; }
