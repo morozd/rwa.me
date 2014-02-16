@@ -2116,8 +2116,13 @@ a.cta:hover {
   -webkit-filter: none; }
 
 /* no grayscale on smaller devices */
-@media only screen and (max-device-width: 1024px) {
-  -webkit-filter: none; }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .project {
+    -webkit-filter: none; } }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .project {
+    -webkit-filter: none; } }
 
 .project-title {
   background-color: #1a1e1f;
