@@ -9,9 +9,10 @@ role: Idea, Design, Development
 type: iPhone App
 bgPrefix: alarmik
 topStyle: top-light
+bottomStyle: bottom-light
 ---
 
-    <div class="full-bleed inline" id="project-details">
+    <div class="full-bleed inline nomargin" id="project-details">
       
         <img src="../assets/projects/alarmik-realpixels.png" class="inline-photo realpx-iphone"/>
         <img src="../assets/projects/alarmik4.png" class="inline-photo"/>
@@ -24,44 +25,39 @@ topStyle: top-light
 
     </div>
 
-	<div class="row">
+	<div class="alarmik-bottom">
 
-		<div class="large-12 columns">
+		<div class="row">
 
+			<div class="large-12 columns">
+
+			    <h2>Project Info</h2>
+
+				<dl class="project-details">
+					<dt>Client</dt>
+					<dd>{{model.client}}</dd>
+					<dt>Responsible for</dt>
+					<dd>{{model.role}}</dd>
+					<dt>Type</dt>
+					<dd>{{model.type}}</dd>
+				</dl>
+
+			</div>
+			
 		</div>
-		
-	</div>
 
+		<div class="row">
 
-	<div class="row">
+			<div class="large-12 columns">
 
-		<div class="large-12 columns">
+			    <h2>Status</h2>
 
-		    <h2>Project Info</h2>
-
-			<dl class="project-details">
-				<dt>Client</dt>
-				<dd>{{model.client}}</dd>
-				<dt>Responsible for</dt>
-				<dd>{{model.role}}</dd>
-				<dt>Type</dt>
-				<dd>{{model.type}}</dd>
-			</dl>
-
+			    <p>
+			      	Alarmik is a concept I've been exploring since January 2013. I haven't set a deadline for myself, and don't want to rush things. One of the reasons I've been holding off development for a while is that as of right now it's still not possible to set a real alarm in iOS7. You can only play a sound that ignores the 'silent switch' of the iPhone if your app is running in the background. I hope Apple will give us access to setting an actual alarm in the future so third party alarm clock apps don't need to give the user a big set of instructions to set an alarm that will actually wake them in the morning..
+			    </p>
+			</div>
+			
 		</div>
-		
-	</div>
 
-	<div class="row">
-
-		<div class="large-12 columns">
-
-		    <h2>Status</h2>
-
-		    <p>
-		      	Alarmik is a concept I've been exploring since January 2013. I haven't set a deadline for myself, and don't want to rush things. One of the reasons I've been holding off development for a while is that as of right now it's still not possible to set a real alarm in iOS7. You can only play a sound that ignores the 'silent switch' of the iPhone if your app is running in the background. I hope Apple will give us access to setting an actual alarm in the future so third party alarm clock apps don't need to give the user a big set of instructions to set an alarm that will actually wake them in the morning..
-		    </p>
-		</div>
-		
 	</div>
 

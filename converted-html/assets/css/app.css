@@ -1972,7 +1972,7 @@ ul {
   margin-left: 35px; }
 
 a {
-  color: #f04124; }
+  color: #ea5957; }
 
 a:hover {
   color: #1a1e1f; }
@@ -2012,7 +2012,7 @@ a:hover {
   z-index: 300; }
 
 #nav a {
-  color: #f04124;
+  color: #ea5957;
   margin-left: 10px;
   margin-right: 10px; }
 
@@ -2081,7 +2081,7 @@ a:hover {
   margin-left: 0; }
 
 a.cta {
-  background-color: #f04124;
+  background-color: #ea5957;
   padding: 25px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -2093,7 +2093,7 @@ a.cta {
   font-style: normal;
   font-weight: 500;
   font-size: 1em;
-  margin-bottom: 25px;
+  margin-bottom: 75px;
   display: inline-block;
   position: relative; }
 
@@ -2106,39 +2106,44 @@ a.cta:hover {
   -webkit-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
   -moz-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
   transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
-  opacity: 0.9; }
+  display: block;
+  opacity: 0.9;
+  margin-bottom: 20px;
+  -webkit-filter: grayscale(100%); }
 
 .project:hover {
   opacity: 1;
-  -webkit-transform: scale(1.1, 1.1);
-  -moz-transform: scale(1.1, 1.1);
-  -ms-transform: scale(1.1, 1.1);
-  -o-transform: scale(1.1, 1.1);
-  transform: scale(1.1, 1.1); }
+  -webkit-filter: none; }
 
-.project img {
-  width: 80%;
-  height: 80%;
-  margin-bottom: 15px; }
+/* no grayscale on smaller devices */
+@media only screen and (max-device-width: 1024px) {
+  -webkit-filter: none; }
 
 .project-title {
-  width: 100%;
-  text-align: center;
-  color: #1a1e1f;
-  font-family: "ff-tisa-web-pro", serif;
+  background-color: #1a1e1f;
+  color: White;
+  height: 2.5em;
+  line-height: 2.5em;
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 10px;
+  position: relative;
+  font-family: "brandon-grotesque", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1em;
-  line-height: 2.2em; }
+  position: relative;
+  top: -4em;
+  opacity: 0;
+  -webkit-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
+  -moz-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
+  transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1); }
 
-.project-type {
-  width: 100%;
-  text-align: center;
-  color: #999;
-  font-family: "ff-tisa-web-pro", serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.8em; }
+.project:hover .project-title {
+  opacity: 1; }
 
 #dribbble-shots {
   list-style: none;
@@ -2152,7 +2157,6 @@ a.cta:hover {
   border: 6px solid #fff; }
 
 .more-shots {
-  margin-top: 25px;
   text-align: center;
   font-style: italic;
   font-size: 1.2em;
@@ -2175,6 +2179,17 @@ a.cta:hover {
 
 .project-container.alarmik h1.project-name {
   color: White !important; }
+
+.alarmik-bottom {
+  background-color: White;
+  padding-top: 75px; }
+
+.alarmik-bottom .row {
+  margin-bottom: 0 !important;
+  padding-bottom: 50px; }
+
+.bottom-light {
+  background-color: White; }
 
 .project-full {
   -webkit-transition: all 1.2s;
@@ -2262,9 +2277,9 @@ a.navigate-down span {
   width: 4em;
   text-align: center;
   z-index: 9999999;
-  position: relative;
+  position: fixed;
   display: inline-block;
-  top: 0px;
+  top: 20px;
   left: 20px;
   height: 40px;
   line-height: 40px;
@@ -2286,11 +2301,11 @@ a.navigate-down span {
   padding-bottom: 25px;
   z-index: 300;
   display: inline-block;
-  position: relative;
+  position: fixed;
   height: 40px;
   line-height: 40px;
-  top: 0px;
-  left: 30px; }
+  top: -5px;
+  left: 100px; }
 
 #project-nav a {
   color: #1a1e1f;
@@ -2373,6 +2388,9 @@ dl.project-details dd {
   margin-bottom: 25px;
   height: auto; }
 
+.full-bleed.inline.nomargin {
+  margin-bottom: 0; }
+
 .full-bleed-photo {
   background: no-repeat center center;
   background-size: cover;
@@ -2387,6 +2405,13 @@ dl.project-details dd {
 
 .inline-photo {
   max-width: 100%; }
+
+.inline-photo.realpx-iphone {
+  max-width: 1100px; }
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .inline-photo.realpx-iphone {
+    max-width: 550px; } }
 
 @media only screen and (max-width: 40em) {
   #project-logo {
@@ -2425,7 +2450,7 @@ dl.project-details dd {
   letter-spacing: -1px; }
 
 .blog-post h2 a {
-  color: #f04124; }
+  color: #ea5957; }
 
 .blog-post h2 a:hover {
   color: #1a1e1f; }
