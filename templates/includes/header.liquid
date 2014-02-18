@@ -2,9 +2,8 @@
 <html class="no-js{% if isProject %} scrolldisabled{%endif%}" lang="en">
 	<head>
 		<meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-		<!--<title>{% if pageTitle %}{{pageTitle}}{% else %}{{ global.defaultPageTitle | escape}}{% endif %}</title>-->
-
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+		
 		<title>{% if pageTitle %}{{pageTitle}}{% else %}{% block title %}{{ global.defaultPageTitle | escape}}{% endblock %}{% endif %}</title>
 
   		{{ "app.css" | asset_url | stylesheet_tag }}

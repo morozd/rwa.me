@@ -1901,7 +1901,8 @@ blockquote, blockquote p {
         background: #007ba1; }
 
 html, body {
-  height: 100%; }
+  height: 100%;
+  min-height: 100%; }
 
 html {
   -ms-word-break: break-all;
@@ -1975,6 +1976,12 @@ a {
   color: #ea5957; }
 
 a:hover {
+  color: #1a1e1f; }
+
+.fitness-tracker a {
+  color: #47c05e; }
+
+.fitness-tracker a:hover {
   color: #1a1e1f; }
 
 #top {
@@ -2069,6 +2076,9 @@ a:hover {
   /*height: 100%;*/
   padding-top: 75px; }
 
+#main-content.no-top {
+  padding-top: 0 !important; }
+
 #main-content .row {
   margin-bottom: 50px; }
 
@@ -2100,7 +2110,17 @@ a.cta {
 a.cta:hover {
   background-color: #1a1e1f; }
 
+.fitness-tracker a.cta {
+  background-color: #47c05e; }
+
+.fitness-tracker a.cta:hover {
+  color: White;
+  background-color: #1a1e1f; }
+
 /* Projects */
+
+#projects .row {
+  margin-bottom: 0 !important; }
 
 .project {
   -webkit-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
@@ -2108,7 +2128,6 @@ a.cta:hover {
   transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
   display: block;
   opacity: 0.9;
-  margin-bottom: 20px;
   -webkit-filter: grayscale(100%); }
 
 .project:hover {
@@ -2116,8 +2135,13 @@ a.cta:hover {
   -webkit-filter: none; }
 
 /* no grayscale on smaller devices */
-@media only screen and (max-device-width: 1024px) {
-  -webkit-filter: none; }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .project {
+    -webkit-filter: none; } }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .project {
+    -webkit-filter: none; } }
 
 .project-title {
   background-color: #1a1e1f;
@@ -2129,8 +2153,6 @@ a.cta:hover {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  top: 10px;
-  position: relative;
   font-family: "brandon-grotesque", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -2156,7 +2178,11 @@ a.cta:hover {
   margin: 10px;
   border: 6px solid #fff; }
 
-.more-shots {
+.more-work {
+  margin-top: 50px !important;
+  margin-bottom: 75px !important; }
+
+.more-work p {
   text-align: center;
   font-style: italic;
   font-size: 1.2em;
@@ -2177,6 +2203,9 @@ a.cta:hover {
   background-position: top;
   background-size: cover; }
 
+.project-container.fitness-tracker {
+  background-color: #222; }
+
 .project-container.alarmik h1.project-name {
   color: White !important; }
 
@@ -2185,6 +2214,14 @@ a.cta:hover {
   padding-top: 75px; }
 
 .alarmik-bottom .row {
+  margin-bottom: 0 !important;
+  padding-bottom: 50px; }
+
+.fitness-tracker-bottom {
+  background-color: White;
+  padding-top: 75px; }
+
+.fitness-tracker-bottom .row {
   margin-bottom: 0 !important;
   padding-bottom: 50px; }
 
@@ -2406,12 +2443,25 @@ dl.project-details dd {
 .inline-photo {
   max-width: 100%; }
 
-.inline-photo.realpx-iphone {
-  max-width: 1100px; }
+.max {
+  max-width: 800px; }
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+.inline-photo.realpx-iphone {
+  max-width: 1100px;
+  display: inline-block;
+  position: relative; }
+
+@media only screen and (min-width: 320px) {
+  .inline-photo.realpx-iphone {
+    max-width: 300px; } }
+
+@media only screen and (min-width: 700px) {
   .inline-photo.realpx-iphone {
     max-width: 550px; } }
+
+@media only screen and (min-width: 1100px) {
+  .inline-photo.realpx-iphone {
+    max-width: 1100px; } }
 
 @media only screen and (max-width: 40em) {
   #project-logo {
@@ -2660,6 +2710,10 @@ footer .columns {
   width: 32px;
   height: 32px;
   position: relative; }
+
+@media only screen and (max-width: 40em) {
+  .spinner {
+    margin: 200px auto; } }
 
 .cube1, .cube2 {
   background-color: #333;

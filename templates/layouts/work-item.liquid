@@ -22,19 +22,28 @@
 			{% include "nav" %}
 		</div>
 
-		<div id="main-content" class="project-full">
+		{% if model.hideTop == true %}
 
-			<div class="row">
-				<div class="large-12 columns">
-					<h1 class="project-name">{{ model.title }}</h1>
+			<div id="main-content" class="project-full no-top">
+
+		{% else %}
+
+			<div id="main-content" class="project-full">
+
+				<div class="row">
+					<div class="large-12 columns">
+						<h1 class="project-name">{{ model.title }}</h1>
+					</div>
 				</div>
+
+		{% endif %}
+
+				{% block content %}{% endblock %}
+
 			</div>
 
-			{% block content %}{% endblock %}
 
-		</div>
-
-		<div class="project-bottom {{model.bottomStyle}}">
+		<div class="{{model.bottomStyle}}">
 			<div class="row">
 
 				<div class="large-12 columns text-center">
