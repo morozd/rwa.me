@@ -1972,6 +1972,10 @@ ul {
   list-style-type: circle;
   margin-left: 35px; }
 
+@media only screen and (max-width: 40em) {
+  p, ul {
+    font-size: 1.2em; } }
+
 a {
   color: #ea5957; }
 
@@ -2060,20 +2064,30 @@ a:hover {
   margin-left: -8px;
   background-color: #1effbe; }
 
-@media only screen and (max-width: 40em) {
-  #intro {
-    padding: 1em;
-    padding-top: 50px;
-    padding-bottom: 25px; }
-  #intro h1 {
-    font-size: 1.4em; } }
+a.view-my-work {
+  display: inline-block;
+  position: relative;
+  margin-top: 20px;
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #1effbe;
+  color: #1a1e1f;
+  font-family: "brandon-grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.1em; }
+
 
 .main-content-intro {
   margin-bottom: 65px; }
 
 #main-content {
   display: block;
-  /*height: 100%;*/
   padding-top: 75px; }
 
 #main-content.no-top {
@@ -2081,6 +2095,29 @@ a:hover {
 
 #main-content .row {
   margin-bottom: 50px; }
+
+@media only screen and (max-width: 40em) {
+  #top {
+    padding-top: 25px;
+    padding-bottom: 0px; }
+  #logo {
+    font-size: 2em;
+    width: 4em;
+    padding: 22px; }
+  #intro-dot {
+    top: 25px; }
+  #intro {
+    padding: 1em;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    margin-bottom: 50px; }
+  #intro h1 {
+    font-size: 1.2em; }
+  #main-content {
+    padding-top: 0px; }
+  a.view-my-work {
+    margin-top: 15px;
+    font-size: 1em; } }
 
 #intro .row {
   margin-bottom: 0; }
