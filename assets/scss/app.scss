@@ -20,6 +20,7 @@ $primary-link-hover-color: #1a1e1f;
 $primary-link-nav-active-color: #222;
 
 $fitness-tracker-color: #47c05e;
+$dragshare-color: #47c05e;
 
 $dark-text-color: #1a1e1f;
 $light-text-color: #999;
@@ -143,6 +144,14 @@ a:hover {
 }
 
 .fitness-tracker a:hover {
+	color: $dark-text-color;
+}
+
+.dragshare a {
+	color: $dragshare-color;
+}
+
+.dragshare a:hover {
 	color: $dark-text-color;
 }
 
@@ -363,6 +372,15 @@ a.cta:hover {
 }
 
 .fitness-tracker a.cta:hover {
+	color: White;
+	background-color: $primary-link-hover-color;
+}
+
+.dragshare a.cta {
+	background-color: $dragshare-color;
+}
+
+.dragshare a.cta:hover {
 	color: White;
 	background-color: $primary-link-hover-color;
 }

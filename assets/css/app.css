@@ -1988,6 +1988,12 @@ a:hover {
 .fitness-tracker a:hover {
   color: #1a1e1f; }
 
+.dragshare a {
+  color: #47c05e; }
+
+.dragshare a:hover {
+  color: #1a1e1f; }
+
 #top {
   padding-top: 100px;
   padding-bottom: 75px; }
@@ -2153,6 +2159,13 @@ a.cta:hover {
   background-color: #47c05e; }
 
 .fitness-tracker a.cta:hover {
+  color: White;
+  background-color: #1a1e1f; }
+
+.dragshare a.cta {
+  background-color: #47c05e; }
+
+.dragshare a.cta:hover {
   color: White;
   background-color: #1a1e1f; }
 
