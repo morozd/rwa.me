@@ -302,7 +302,7 @@ a.view-my-work {
 		padding: 1.0em;
 		padding-top: 40px;
 		padding-bottom: 25px;
-		margin-bottom: 50px;
+		margin-bottom: 25px;
 	}
 
 	#intro h1 {
@@ -311,6 +311,10 @@ a.view-my-work {
 
 	#main-content {
 		padding-top: 0px;
+	}
+
+	#main-content .row {
+		margin-bottom: 25px;
 	}
 
 	a.view-my-work {

@@ -2110,11 +2110,13 @@ a.view-my-work {
     padding: 1em;
     padding-top: 40px;
     padding-bottom: 25px;
-    margin-bottom: 50px; }
+    margin-bottom: 25px; }
   #intro h1 {
     font-size: 1.2em; }
   #main-content {
     padding-top: 0px; }
+  #main-content .row {
+    margin-bottom: 25px; }
   a.view-my-work {
     margin-top: 15px;
     font-size: 1em; } }
