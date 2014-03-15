@@ -21,6 +21,7 @@ $primary-link-nav-active-color: #222;
 
 $fitness-tracker-color: #47c05e;
 $dragshare-color: #47c05e;
+$flitsmeister-color: #1a75b6;
 
 $dark-text-color: #1a1e1f;
 $light-text-color: #999;
@@ -34,10 +35,7 @@ $primary-color: #1effbe;
 	transition: $transition;
 }
 
-
 // User styles
-
-
 
 html, body {
     height:100%;
@@ -156,6 +154,15 @@ a:hover {
 }
 
 
+.flitsmeister a {
+	color: $flitsmeister-color;
+}
+
+.flitsmeister a:hover {
+	color: $dark-text-color;
+}
+
+
 #top {
 	padding-top: 100px;
 	padding-bottom: 75px;
@@ -221,6 +228,7 @@ a:hover {
 	background-repeat: no-repeat;
 	background-position: top center;
 	padding: 50px;
+	padding-bottom: 35px;
 	text-align: center;
 	position: relative;
 	margin-bottom: 65px;
@@ -251,20 +259,31 @@ a.view-my-work {
 	position: relative;
 	margin-top: 20px;
 	padding: 15px;
-	padding-left: 25px;
-	padding-right: 25px;
+	padding-left: 30px;
+	padding-right: 30px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	text-transform: uppercase;
 
-	background-color: $primary-color;
-	color: $dark-text-color;
+	border: 1px solid #5f6263;
+	color: White;
 
 	font-family: "brandon-grotesque",sans-serif;
 	font-style: normal;
-	font-weight: 500;
-	font-size: 1.1em;
+	font-weight: 700;
+	font-size: 1.05em;
+	letter-spacing: 0.2em;
+
+	-webkit-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
+	-moz-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
+	transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
+}
+
+a.view-my-work:hover {
+	color: $primary-color;
+	border-color: $primary-color;
+
 }
 
 #view-my-work:hover {
@@ -385,13 +404,31 @@ a.cta:hover {
 	background-color: $primary-link-hover-color;
 }
 
-/* Projects */
-
-#projects {
+.flitsmeister a.cta {
+	background-color: $flitsmeister-color;
 }
 
-#projects .row {
+.flitsmeister a.cta:hover {
+	color: White;
+	background-color: $primary-link-hover-color;
+}
+
+/* Projects */
+
+#work {
+	margin-bottom: 50px;
+}
+
+#work .row {
 	margin-bottom: 0 !important;
+}
+
+.project-image {
+	border: 1px solid #ddd;
+	background-color: White;
+	float: left;
+	margin: 5px;
+	padding: 6px;
 }
 
 .project img {
@@ -444,10 +481,10 @@ a.cta:hover {
 	font-family: "brandon-grotesque",sans-serif;
 	font-style: normal;
 	font-weight: 500;
-	font-size: 1.0em;
+	font-size: 2.0em;
 
 	position: relative;
-	top: -4em;
+	top: -9.5em;
 
 	opacity: 0;
 	-webkit-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
@@ -457,20 +494,6 @@ a.cta:hover {
 
 .project:hover .project-title {
 	opacity: 1;
-}
-
-
-#dribbble-shots {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: block;
-}
-
-#dribbble-shots li {
-	float: left;
-	margin: 10px;
-	border: 6px solid #fff;
 }
 
 .more-work {
@@ -783,7 +806,9 @@ dl.project-details dd {
 	}
 }
 
-
+.full-bleed img {
+	width: 100%;
+}
 
 .maxwidth {
 	width: 100%;
@@ -1136,6 +1161,76 @@ footer .columns {
 	}
 }
 
+/* Dribbble */
+
+.shots {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.shots li {
+	border: 1px solid #ddd;
+	background-color: White;
+	float: left;
+	margin: 5px;
+	position: relative;
+}
+
+.shots li .shot-info {
+
+	display: inline-block;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	-webkit-border-radius: 50px;
+	-webkit-background-clip: padding-box;
+	-moz-border-radius: 50px;
+	-moz-background-clip: padding;
+	border-radius: 50px;
+	background-clip: padding-box;
+	top: 22%;
+	left: 50%;
+	margin-left: -50px;
+	font-size: 15px;
+	background-color: #fff;
+	color: #111;
+	line-height: 100px;
+	text-align: center;
+	opacity: 0;
+
+	-webkit-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
+	-moz-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
+	transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
+}
+
+.shot-container {
+	background-color: black;
+	margin: 6px;
+}
+
+.shot {
+	max-width: 216px;	
+
+	-webkit-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
+	-moz-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
+	transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
+}
+
+.shots li a {
+}
+
+.shots li a img {
+	opacity: 1.0;
+}
+
+.shots li a:hover img {
+	opacity: 0.8;
+}
+
+.shots li a:hover .shot-info {
+	opacity: 1.0;
+}
 
 /* Spinner - Spinkit -  */
 

@@ -1994,6 +1994,12 @@ a:hover {
 .dragshare a:hover {
   color: #1a1e1f; }
 
+.flitsmeister a {
+  color: #1a75b6; }
+
+.flitsmeister a:hover {
+  color: #1a1e1f; }
+
 #top {
   padding-top: 100px;
   padding-bottom: 75px; }
@@ -2049,6 +2055,7 @@ a:hover {
   background-repeat: no-repeat;
   background-position: top center;
   padding: 50px;
+  padding-bottom: 35px;
   text-align: center;
   position: relative;
   margin-bottom: 65px; }
@@ -2075,18 +2082,26 @@ a.view-my-work {
   position: relative;
   margin-top: 20px;
   padding: 15px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   text-transform: uppercase;
-  background-color: #1effbe;
-  color: #1a1e1f;
+  border: 1px solid #5f6263;
+  color: White;
   font-family: "brandon-grotesque", sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 1.1em; }
+  font-weight: 700;
+  font-size: 1.05em;
+  letter-spacing: 0.2em;
+  -webkit-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
+  -moz-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
+  transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1); }
+
+a.view-my-work:hover {
+  color: #1effbe;
+  border-color: #1effbe; }
 
 
 .main-content-intro {
@@ -2169,10 +2184,26 @@ a.cta:hover {
   color: White;
   background-color: #1a1e1f; }
 
-/* Projects */
+.flitsmeister a.cta {
+  background-color: #1a75b6; }
 
-#projects .row {
+.flitsmeister a.cta:hover {
+  color: White;
+  background-color: #1a1e1f; }
+
+/* Projects */
+#work {
+  margin-bottom: 50px; }
+
+#work .row {
   margin-bottom: 0 !important; }
+
+.project-image {
+  border: 1px solid #ddd;
+  background-color: White;
+  float: left;
+  margin: 5px;
+  padding: 6px; }
 
 .project img {
   -webkit-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
@@ -2208,9 +2239,9 @@ a.cta:hover {
   font-family: "brandon-grotesque", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 2em;
   position: relative;
-  top: -4em;
+  top: -9.5em;
   opacity: 0;
   -webkit-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
   -moz-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
@@ -2218,17 +2249,6 @@ a.cta:hover {
 
 .project:hover .project-title {
   opacity: 1; }
-
-#dribbble-shots {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: block; }
-
-#dribbble-shots li {
-  float: left;
-  margin: 10px;
-  border: 6px solid #fff; }
 
 .more-work {
   margin-top: 50px !important;
@@ -2469,6 +2489,9 @@ dl.project-details dd {
 @media only screen and (max-width: 320px) {
   .project-full h1 {
     font-size: 3em; } }
+
+.full-bleed img {
+  width: 100%; }
 
 .maxwidth {
   width: 100%;
@@ -2720,6 +2743,63 @@ footer .columns {
 @media only screen and (max-width: 40em) {
   #work-footer .tw {
     display: none; } }
+
+/* Dribbble */
+.shots {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.shots li {
+  border: 1px solid #ddd;
+  background-color: White;
+  float: left;
+  margin: 5px;
+  position: relative; }
+
+.shots li .shot-info {
+  display: inline-block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 50px;
+  -moz-background-clip: padding;
+  border-radius: 50px;
+  background-clip: padding-box;
+  top: 22%;
+  left: 50%;
+  margin-left: -50px;
+  font-size: 15px;
+  background-color: #fff;
+  color: #111;
+  line-height: 100px;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
+  -moz-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
+  transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1); }
+
+.shot-container {
+  background-color: black;
+  margin: 6px; }
+
+.shot {
+  max-width: 216px;
+  -webkit-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
+  -moz-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
+  transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1); }
+
+
+.shots li a img {
+  opacity: 1; }
+
+.shots li a:hover img {
+  opacity: 0.8; }
+
+.shots li a:hover .shot-info {
+  opacity: 1; }
 
 /* Spinner - Spinkit -  */
 #loader {
