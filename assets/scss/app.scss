@@ -465,9 +465,8 @@ a.cta:hover {
 }
 
 .project-title {
-	background-color: $dark-text-color;
+	background-color: #111;
 	color: White;
-
 
 	height: 2.5em;
 	line-height: 2.5em;
@@ -480,11 +479,13 @@ a.cta:hover {
 
 	font-family: "brandon-grotesque",sans-serif;
 	font-style: normal;
-	font-weight: 500;
-	font-size: 2.0em;
+	font-weight: 900;
+	font-size: 2.5em;
 
 	position: relative;
-	top: -9.5em;
+	top: -8.5em;
+
+	text-transform: uppercase;
 
 	opacity: 0;
 	-webkit-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);

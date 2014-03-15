@@ -2227,7 +2227,7 @@ a.cta:hover {
     -webkit-filter: none; } }
 
 .project-title {
-  background-color: #1a1e1f;
+  background-color: #111;
   color: White;
   height: 2.5em;
   line-height: 2.5em;
@@ -2238,10 +2238,11 @@ a.cta:hover {
   margin-right: auto;
   font-family: "brandon-grotesque", sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 2em;
+  font-weight: 900;
+  font-size: 2.5em;
   position: relative;
-  top: -9.5em;
+  top: -8.5em;
+  text-transform: uppercase;
   opacity: 0;
   -webkit-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
   -moz-transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);

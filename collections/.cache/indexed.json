@@ -2,67 +2,33 @@
   "blog": {
     "collection": {
       "/blog/the-secret-handshake": {
-        "mixture_month_year": "04/2013",
-        "mixture_date": "2013-04-03T00:00:00Z",
-        "year": "2013",
-        "body": "\n\n\n<p>A few weeks ago I stumbled upon a site called &#8216;The Secret Handshake&#8217;. It&#8217;s a site with advice from a lot of my favorite designers, on topics like creating your Resume, the Application Process and tips on what makes a great Portfolio. I find myself visiting it at least once a week, clicking random photos to learn and be inspired.</p>\n\n<div class=\"row\">\n\n\t<div class=\"large-12 columns text-center\">\n\t\n\t\t\t <a href=\"http://www.learnthesecrethandshake.com\"><img src=\"/assets/img/blog/secret-handshake.png\" border=\"0\" /></a>\n\t\n\t</div>\n\t\n</div>\n\n<p>More at <a href=\"http://www.learnthesecrethandshake.com\">www.learnthesecrethandshake.com</a></p>\n",
-        "date": "Wed Apr 03 00:00:00 UTC 2013",
         "layout": "blog-post",
         "month": "04",
-        "published": true,
+        "date": "Wed Apr 03 00:00:00 UTC 2013",
+        "mixture_month_year": "04/2013",
+        "body": "\n\n\n<p>A few weeks ago I stumbled upon a site called &#8216;The Secret Handshake&#8217;. It&#8217;s a site with advice from a lot of my favorite designers, on topics like creating your Resume, the Application Process and tips on what makes a great Portfolio. I find myself visiting it at least once a week, clicking random photos to learn and be inspired.</p>\n\n<div class=\"row\">\n\n\t<div class=\"large-12 columns text-center\">\n\t\n\t\t\t <a href=\"http://www.learnthesecrethandshake.com\"><img src=\"/assets/img/blog/secret-handshake.png\" border=\"0\" /></a>\n\t\n\t</div>\n\t\n</div>\n\n<p>More at <a href=\"http://www.learnthesecrethandshake.com\">www.learnthesecrethandshake.com</a></p>\n",
+        "mixture_date": "2013-04-03T00:00:00Z",
+        "ticks": 1364947200.0,
+        "year": "2013",
         "slug": "/blog/the-secret-handshake",
+        "title": "The Secret Handshake",
         "tags": [
           "advice",
           "resume",
           "portfolio",
           "application process"
         ],
-        "ticks": 1364947200.0,
-        "title": "The Secret Handshake"
+        "published": true
       }
     },
     "index": {
-      "transliterated-title": {
-        "the-secret-handshake": [
-          "/blog/the-secret-handshake"
-        ]
-      },
-      "mixture_month_year": {
-        "04/2013": [
-          "/blog/the-secret-handshake"
-        ]
-      },
-      "transliterated-tags": {
-        "application-process": [
-          "/blog/the-secret-handshake"
-        ],
-        "portfolio": [
-          "/blog/the-secret-handshake"
-        ],
-        "resume": [
-          "/blog/the-secret-handshake"
-        ],
-        "advice": [
-          "/blog/the-secret-handshake"
-        ]
-      },
-      "transliterated-slug": {
-        "/blog/the-secret-handshake": [
-          "/blog/the-secret-handshake"
-        ]
-      },
       "layout": {
         "blog-post": [
           "/blog/the-secret-handshake"
         ]
       },
-      "year": {
-        "2013": [
-          "/blog/the-secret-handshake"
-        ]
-      },
-      "mixture_date": {
-        "2013-04-03t00:00:00z": [
+      "transliterated-title": {
+        "the-secret-handshake": [
           "/blog/the-secret-handshake"
         ]
       },
@@ -71,17 +37,51 @@
           "/blog/the-secret-handshake"
         ]
       },
-      "tags": {
+      "transliterated-tags": {
+        "resume": [
+          "/blog/the-secret-handshake"
+        ],
+        "advice": [
+          "/blog/the-secret-handshake"
+        ],
+        "application-process": [
+          "/blog/the-secret-handshake"
+        ],
         "portfolio": [
+          "/blog/the-secret-handshake"
+        ]
+      },
+      "transliterated-slug": {
+        "/blog/the-secret-handshake": [
+          "/blog/the-secret-handshake"
+        ]
+      },
+      "mixture_month_year": {
+        "04/2013": [
+          "/blog/the-secret-handshake"
+        ]
+      },
+      "mixture_date": {
+        "2013-04-03t00:00:00z": [
+          "/blog/the-secret-handshake"
+        ]
+      },
+      "tags": {
+        "resume": [
+          "/blog/the-secret-handshake"
+        ],
+        "advice": [
           "/blog/the-secret-handshake"
         ],
         "application process": [
           "/blog/the-secret-handshake"
         ],
-        "resume": [
+        "portfolio": [
           "/blog/the-secret-handshake"
-        ],
-        "advice": [
+        ]
+      },
+      "title": {
+        "the secret handshake": [
           "/blog/the-secret-handshake"
         ]
       },
@@ -90,8 +90,8 @@
           "/blog/the-secret-handshake"
         ]
       },
-      "title": {
-        "the secret handshake": [
+      "year": {
+        "2013": [
           "/blog/the-secret-handshake"
         ]
       },
@@ -110,89 +110,94 @@
   "work": {
     "collection": {
       "/work/fitness-tracker": {
-        "bgPrefix": "fitness-tracker",
-        "mixture_month_year": "04/2013",
-        "client": "Personal",
-        "mixture_date": "2013-04-03T00:00:00Z",
-        "year": "2013",
-        "body": "\n\n    <div id=\"fitness-tracker-top\" class=\"text-center\"> \n\n\t    <span data-picture data-alt=\"Fitness Tracker app\" class=\"full-bleed\">\n\t        <span data-src=\"../assets/projects/fitness1-small.png\"></span>\n\t        <span data-src=\"../assets/projects/fitness1.png\" data-media=\"(min-width: 480px)\"></span>\n\t        <noscript>\n\t            <img src=\"../assets/projects/fitness1.png\" alt=\"Fitness Tracker app\">\n\t        </noscript>\n\t    </span>\n\n\n\t    <span data-picture data-alt=\"Fitness Tracker app\" class=\"maxwidth\">\n\t        <span data-src=\"../assets/projects/fitness2-small.png\"></span>\n\t        <span data-src=\"../assets/projects/fitness2.png\" data-media=\"(min-width: 480px)\"></span>\n\t        <noscript>\n\t            <img src=\"../assets/projects/fitness2.png\" alt=\"Fitness Tracker app\">\n\t        </noscript>\n\t    </span>\n\n\n\t    <span data-picture data-alt=\"Fitness Tracker app\" class=\"maxwidth\">\n\t        <span data-src=\"../assets/projects/fitness3-small.png\"></span>\n\t        <span data-src=\"../assets/projects/fitness3.png\" data-media=\"(min-width: 480px)\"></span>\n\t        <noscript>\n\t            <img src=\"../assets/projects/fitness3.png\" alt=\"Fitness Tracker app\">\n\t        </noscript>\n\t    </span>\n\n\n\t    <span data-picture data-alt=\"Fitness Tracker app\" class=\"maxwidth\">\n\t        <span data-src=\"../assets/projects/fitness4-small.png\"></span>\n\t        <span data-src=\"../assets/projects/fitness4.png\" data-media=\"(min-width: 480px)\"></span>\n\t        <noscript>\n\t            <img src=\"../assets/projects/fitness4.png\" alt=\"Fitness Tracker app\">\n\t        </noscript>\n\t    </span>\n\n\n\t    <span data-picture data-alt=\"Fitness Tracker app\" class=\"maxwidth\">\n\t        <span data-src=\"../assets/projects/fitness5-small.png\"></span>\n\t        <span data-src=\"../assets/projects/fitness5.png\" data-media=\"(min-width: 480px)\"></span>\n\t        <noscript>\n\t            <img src=\"../assets/projects/fitness5.png\" alt=\"Fitness Tracker app\">\n\t        </noscript>\n\t    </span>\n\n\n\t    <span data-picture data-alt=\"Fitness Tracker app\" class=\"maxwidth\">\n\t        <span data-src=\"../assets/projects/fitness6-small.png\"></span>\n\t        <span data-src=\"../assets/projects/fitness6.png\" data-media=\"(min-width: 480px)\"></span>\n\t        <noscript>\n\t            <img src=\"../assets/projects/fitness6.png\" alt=\"Fitness Tracker app\">\n\t        </noscript>\n\t    </span>\n\n\n    </div>\n\n\t<div id=\"fitness-tracker-bottom\">\n\n\t\t<div class=\"row\">\n\n\t\t\t<div class=\"large-12 columns\">\n\n\t\t\t    <h2>Project Info</h2>\n\n\t\t\t\t<dl class=\"project-details\">\n\t\t\t\t\t<dt>Client</dt>\n\t\t\t\t\t<dd>Personal</dd>\n\t\t\t\t\t<dt>Responsible for</dt>\n\t\t\t\t\t<dd>Idea, Design, Development</dd>\n\t\t\t\t\t<dt>Type</dt>\n\t\t\t\t\t<dd>iPhone App</dd>\n\t\t\t\t</dl>\n\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\n\t\t<div class=\"row\">\n\n\t\t\t<div class=\"large-12 columns\">\n\n\t\t\t    <h2>Status</h2>\n\n\t\t\t    <p>\n\t\t\t      \tThis is on of the sideprojects I work on every once in a while. It's not finished yet.\n\t\t\t    </p>\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\n\t</div>\n\n",
-        "date": "Wed Apr 03 00:00:00 UTC 2013",
         "layout": "work-item",
         "month": "04",
-        "published": true,
+        "client": "Personal",
+        "date": "Wed Apr 03 00:00:00 UTC 2013",
+        "hideTop": true,
+        "mixture_month_year": "04/2013",
+        "body": "\n\n    <div id=\"fitness-tracker-top\" class=\"text-center\"> \n\n\t    <span data-picture data-alt=\"Fitness Tracker app\" class=\"full-bleed\">\n\t        <span data-src=\"../assets/projects/fitness1-small.png\"></span>\n\t        <span data-src=\"../assets/projects/fitness1.png\" data-media=\"(min-width: 480px)\"></span>\n\t        <noscript>\n\t            <img src=\"../assets/projects/fitness1.png\" alt=\"Fitness Tracker app\">\n\t        </noscript>\n\t    </span>\n\n\n\t    <span data-picture data-alt=\"Fitness Tracker app\" class=\"maxwidth\">\n\t        <span data-src=\"../assets/projects/fitness2-small.png\"></span>\n\t        <span data-src=\"../assets/projects/fitness2.png\" data-media=\"(min-width: 480px)\"></span>\n\t        <noscript>\n\t            <img src=\"../assets/projects/fitness2.png\" alt=\"Fitness Tracker app\">\n\t        </noscript>\n\t    </span>\n\n\n\t    <span data-picture data-alt=\"Fitness Tracker app\" class=\"maxwidth\">\n\t        <span data-src=\"../assets/projects/fitness3-small.png\"></span>\n\t        <span data-src=\"../assets/projects/fitness3.png\" data-media=\"(min-width: 480px)\"></span>\n\t        <noscript>\n\t            <img src=\"../assets/projects/fitness3.png\" alt=\"Fitness Tracker app\">\n\t        </noscript>\n\t    </span>\n\n\n\t    <span data-picture data-alt=\"Fitness Tracker app\" class=\"maxwidth\">\n\t        <span data-src=\"../assets/projects/fitness4-small.png\"></span>\n\t        <span data-src=\"../assets/projects/fitness4.png\" data-media=\"(min-width: 480px)\"></span>\n\t        <noscript>\n\t            <img src=\"../assets/projects/fitness4.png\" alt=\"Fitness Tracker app\">\n\t        </noscript>\n\t    </span>\n\n\n\t    <span data-picture data-alt=\"Fitness Tracker app\" class=\"maxwidth\">\n\t        <span data-src=\"../assets/projects/fitness5-small.png\"></span>\n\t        <span data-src=\"../assets/projects/fitness5.png\" data-media=\"(min-width: 480px)\"></span>\n\t        <noscript>\n\t            <img src=\"../assets/projects/fitness5.png\" alt=\"Fitness Tracker app\">\n\t        </noscript>\n\t    </span>\n\n\n\t    <span data-picture data-alt=\"Fitness Tracker app\" class=\"maxwidth\">\n\t        <span data-src=\"../assets/projects/fitness6-small.png\"></span>\n\t        <span data-src=\"../assets/projects/fitness6.png\" data-media=\"(min-width: 480px)\"></span>\n\t        <noscript>\n\t            <img src=\"../assets/projects/fitness6.png\" alt=\"Fitness Tracker app\">\n\t        </noscript>\n\t    </span>\n\n\n    </div>\n\n\t<div id=\"fitness-tracker-bottom\">\n\n\t\t<div class=\"row\">\n\n\t\t\t<div class=\"large-12 columns\">\n\n\t\t\t    <h2>Project Info</h2>\n\n\t\t\t\t<dl class=\"project-details\">\n\t\t\t\t\t<dt>Client</dt>\n\t\t\t\t\t<dd>Personal</dd>\n\t\t\t\t\t<dt>Responsible for</dt>\n\t\t\t\t\t<dd>Idea, Design, Development</dd>\n\t\t\t\t\t<dt>Type</dt>\n\t\t\t\t\t<dd>iPhone App</dd>\n\t\t\t\t</dl>\n\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\n\t\t<div class=\"row\">\n\n\t\t\t<div class=\"large-12 columns\">\n\n\t\t\t    <h2>Status</h2>\n\n\t\t\t    <p>\n\t\t\t      \tThis is on of the sideprojects I work on every once in a while. It's not finished yet.\n\t\t\t    </p>\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\n\t</div>\n\n",
+        "mixture_date": "2013-04-03T00:00:00Z",
+        "topStyle": "top-light",
+        "bgPrefix": "fitness-tracker",
+        "ticks": 1364947200.0,
+        "year": "2013",
         "role": "Idea, Design, Development",
         "slug": "/work/fitness-tracker",
-        "ticks": 1364947200.0,
         "title": "Fitness Tracker",
-        "type": "iPhone App",
-        "bottomStyle": "bottom-light",
-        "hideTop": true,
-        "topStyle": "top-light"
-      },
-      "/work/alarmik": {
-        "bgPrefix": "alarmik",
-        "mixture_month_year": "04/2013",
-        "client": "Personal",
-        "mixture_date": "2013-04-03T00:00:00Z",
-        "year": "2013",
-        "body": "\n\n    <div id=\"alarmik-top\" class=\"text-center\">\n\n    \t<div class=\"text-center\">\n        \t<img src=\"../assets/projects/alarmik-realpixels.png\" class=\"realpx-iphone\"/>\n        </div>\n        <div class=\"clearfix\">&nbsp;</div>\n\n\t    <span data-picture data-alt=\"Alarmik for iPhone\" class=\"maxwidth\">\n\t        <span data-src=\"../assets/projects/alarmik4-small.png\"></span>\n\t        <span data-src=\"../assets/projects/alarmik4.png\" data-media=\"(min-width: 480px)\"></span>\n\t        <noscript>\n\t            <img src=\"../assets/projects/alarmik4.png\" alt=\"Alarmik for iPhone\">\n\t        </noscript>\n\t    </span>\n\n\t    <span data-picture data-alt=\"Alarmik for iPhone\" class=\"maxwidth\">\n\t        <span data-src=\"../assets/projects/alarmik5-small.png\"></span>\n\t        <span data-src=\"../assets/projects/alarmik5.png\" data-media=\"(min-width: 480px)\"></span>\n\t        <noscript>\n\t            <img src=\"../assets/projects/alarmik5.png\" alt=\"Alarmik for iPhone\">\n\t        </noscript>\n\t    </span>\n\n\t    <span data-picture data-alt=\"Alarmik for iPhone\" class=\"maxwidth\">\n\t        <span data-src=\"../assets/projects/alarmik6-small.png\"></span>\n\t        <span data-src=\"../assets/projects/alarmik6.png\" data-media=\"(min-width: 480px)\"></span>\n\t        <noscript>\n\t            <img src=\"../assets/projects/alarmik6.png\" alt=\"Alarmik for iPhone\">\n\t        </noscript>\n\t    </span>\n\n\t    <span data-picture data-alt=\"Alarmik for iPhone\" class=\"maxwidth\">\n\t        <span data-src=\"../assets/projects/alarmik7-small.png\"></span>\n\t        <span data-src=\"../assets/projects/alarmik7.png\" data-media=\"(min-width: 480px)\"></span>\n\t        <noscript>\n\t            <img src=\"../assets/projects/alarmik7.png\" alt=\"Alarmik for iPhone\">\n\t        </noscript>\n\t    </span>\n\n\t    <span data-picture data-alt=\"Alarmik for iPhone\" class=\"maxwidth\">\n\t        <span data-src=\"../assets/projects/alarmik8-small.png\"></span>\n\t        <span data-src=\"../assets/projects/alarmik8.png\" data-media=\"(min-width: 480px)\"></span>\n\t        <noscript>\n\t            <img src=\"../assets/projects/alarmik8.png\" alt=\"Alarmik for iPhone\">\n\t        </noscript>\n\t    </span>\n\n\t    <span data-picture data-alt=\"Alarmik for iPhone\" class=\"maxwidth\">\n\t        <span data-src=\"../assets/projects/alarmik3-small.png\"></span>\n\t        <span data-src=\"../assets/projects/alarmik3.png\" data-media=\"(min-width: 480px)\"></span>\n\t        <noscript>\n\t            <img src=\"../assets/projects/alarmik3.png\" alt=\"Alarmik for iPhone\">\n\t        </noscript>\n\t    </span>\n\n\t    <span data-picture data-alt=\"Alarmik for iPhone\" class=\"maxwidth\">\n\t        <span data-src=\"../assets/projects/alarmik2-small.png\"></span>\n\t        <span data-src=\"../assets/projects/alarmik2.png\" data-media=\"(min-width: 480px)\"></span>\n\t        <noscript>\n\t            <img src=\"../assets/projects/alarmik2.png\" alt=\"Alarmik for iPhone\">\n\t        </noscript>\n\t    </span>\n      \n    </div>\n\n\t<div id=\"alarmik-bottom\">\n\n\t\t<div class=\"row\">\n\n\t\t\t<div class=\"large-12 columns\">\n\n\t\t\t    <h2>Project Info</h2>\n\n\t\t\t\t<dl class=\"project-details\">\n\t\t\t\t\t<dt>Client</dt>\n\t\t\t\t\t<dd>Personal</dd>\n\t\t\t\t\t<dt>Responsible for</dt>\n\t\t\t\t\t<dd>Idea, Design, Development</dd>\n\t\t\t\t\t<dt>Type</dt>\n\t\t\t\t\t<dd>iPhone App</dd>\n\t\t\t\t</dl>\n\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\n\t\t<div class=\"row\">\n\n\t\t\t<div class=\"large-12 columns\">\n\n\t\t\t    <h2>Status</h2>\n\n\t\t\t    <p>\n\t\t\t      \tAlarmik is a concept I've been exploring since January 2013. One of the reasons I've been holding off development for a while is that as of right now it's still not possible to set a real alarm in iOS7. You can only play a sound that ignores the 'silent switch' of the iPhone if your app is running in the background. I hope Apple will give us access to setting an actual alarm in the future so third party alarm clock apps don't need to give the user a big set of instructions to set an alarm that will actually wake them in the morning..\n\t\t\t    </p>\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\n\t</div>\n\n",
-        "date": "Wed Apr 03 00:00:00 UTC 2013",
-        "layout": "work-item",
-        "month": "04",
         "published": true,
-        "role": "Idea, Design, Development",
-        "slug": "/work/alarmik",
-        "ticks": 1364947200.0,
-        "title": "Wake up in style",
-        "type": "iPhone App",
         "bottomStyle": "bottom-light",
-        "topStyle": "top-light"
+        "type": "iPhone App"
       },
       "/work/flitsmeister": {
-        "bgPrefix": "flitsmeister",
-        "mixture_month_year": "04/2013",
-        "client": "Personal",
-        "mixture_date": "2013-04-03T00:00:00Z",
-        "year": "2013",
-        "body": "\n\n\n\n\t<iframe style=\"margin-bottom: 50px;\" width='100%' height='240px' frameBorder='0' src='http://a.tiles.mapbox.com/v3/rickwaalders.h349m5jj/attribution.html'></iframe>\n\n    <div id=\"flitsmeister-top\"> \n\n\n\t\t<div class=\"row\">\n\n\t\t\t<div class=\"large-12 columns text-center\">\n\t\t\t\t\n\t\t\t\t<img src=\"../assets/projects/flitsmeister-icon.png\" width=\"76\" height=\"76\" />\n\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\n\t\t<div class=\"row\">\n\n\t\t\t<div class=\"large-12 columns\">\n\n\n\t\t\t    <h2>What is Flitsmeister?</h2>\n\n\t\t\t    <p>\n\t\t\t      \tFlitsmeister is a real-time traffic analysis app for The Netherlands, powered by its users. I founded Flitsmeister in 2009 together with Sjoerd Perfors and in 2012 we formed a company together with Jaco de Vries of Omnext.Since January 2014 we have over 500.000 active users and our Flitsmeister apps can be downloaded on all the major platforms. Flitsmeister is the most well-known name in traffic in The Netherlands right now. \n\t\t\t    </p>\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\n\n\t    <div class=\"text-center\" style=\"background-color: #1a75b6;margin-bottom:100px;padding-top:50px;padding-bottom:50px;\">\n\t      \n\t\t\t\t<img src=\"../assets/projects/flitsmeister-screens.png\" />\n\n\t    </div>\n\n\n\t\t<div class=\"row\">\n\n\t\t\t<div class=\"large-12 columns\">\n\n\t\t\t    <h2>How it started</h2>\n\n\t\t\t    <p>\n\t\t\t      \tIn 2009, my colleague Sjoerd Perfors and I were frustrated that there were no traffic apps for The Netherlands that showed where there were speedtraps, traffic jams and speed cameras. So we decided to build one ourselves. After 6 months of designing and developing after our day job and during the weekends, we where finished with our first version. We decided we wanted to release it to the public and submitted it to the App Store in the beginning of 2010. What happened next was something we would have never expected. People started downloading the app and a few years later we reached half a million active users.\n\t\t\t    </p>\n\n\t\t\t    <p>\n\t\t\t    \tTogether with Sjoerd Perfors, Jaco de Vries, Jorn de Vries, Ruben Meijering, Ruben Ernst and Nick Meessen we're working every day trying to improve our traffic service through our apps and website. We're working closely with some of the biggest companies in our country to make sure we keep improving our growth rate and reach as many people as we can.\n\t\t\t    </p>\n\n\t\t\t    <p>\n\t\t\t    \tAs a co-founder, not only have I been responsible for a lot of the design and development work, together with Sjoerd Perfors and Jaco de Vries I'm also responsible for making the bigger decisions through our management team.\n\t\t\t    </p>\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\n\n    </div>\n\n\n\n\n\n\t<div id=\"flitsmeister-bottom\">\n\n\t\t<div class=\"row\">\n\n\t\t\t<div class=\"large-12 columns\">\n\n\t\t\t    <h2>Project Info</h2>\n\n\t\t\t\t<dl class=\"project-details\">\n\t\t\t\t\t<dt>Client</dt>\n\t\t\t\t\t<dd>Personal</dd>\n\t\t\t\t\t<dt>Responsible for</dt>\n\t\t\t\t\t<dd>Idea, Design, Development</dd>\n\t\t\t\t\t<dt>Type</dt>\n\t\t\t\t\t<dd>Startup</dd>\n\t\t\t\t</dl>\n\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\n\t\t<div class=\"row\">\n\n\t\t\t<div class=\"large-12 columns\">\n\n\t\t\t    <h2>Timeline</h2>\n\n\t\t\t    <p>\n\t\t\t    users, bnr, nieuwe versies, etc\n\t\t\t    </p>\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\n\t\t<div class=\"row\">\n\n\t\t\t<div class=\"large-12 columns\">\n\n\t\t\t    <h2>Press mentions</h2>\n\n\t\t\t    <p>\n\t\t\t    mostly dutch\n\t\t\t      \t...\n\t\t\t    </p>\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\n\t</div>\n\n",
         "layout": "work-item",
-        "date": "Wed Apr 03 00:00:00 UTC 2013",
         "month": "04",
-        "role": "Idea, Design, Development",
-        "published": true,
-        "slug": "/work/flitsmeister",
-        "ticks": 1364947200.0,
-        "title": "Flitsmeister",
-        "type": "Startup",
+        "client": "Personal",
         "hideTop": true,
-        "topStyle": "top-light"
+        "date": "Wed Apr 03 00:00:00 UTC 2013",
+        "mixture_month_year": "04/2013",
+        "body": "\n\n\n\n    <div class=\"text-center\" style=\"background-color: #1a75b6;margin-bottom:75px;padding-top:75px;padding-bottom:75px;\">\n      \n\t\t\t<img src=\"../assets/projects/flitsmeister-screens.png\" />\n\n    </div>\n\n    <div id=\"flitsmeister-top\"> \n\n\n\t\t<div class=\"row\">\n\n\t\t\t<div class=\"large-12 columns text-center\">\n\t\t\t\t\n\t\t\t\t<img src=\"../assets/projects/flitsmeister-icon.png\" width=\"76\" height=\"76\" />\n\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\n\t\t<div class=\"row\">\n\n\t\t\t<div class=\"large-12 columns\">\n\n\n\t\t\t    <h2>What is Flitsmeister?</h2>\n\n\t\t\t    <p>\n\t\t\t      \tFlitsmeister is a real-time traffic analysis app for The Netherlands, powered by its users. I founded Flitsmeister in 2009 together with Sjoerd Perfors and in 2012 we formed a company together with Jaco de Vries of Omnext.Since January 2014 we have over 500.000 active users and our Flitsmeister apps can be downloaded on all the major platforms. Flitsmeister is the most well-known name in traffic in The Netherlands right now. \n\t\t\t    </p>\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\n\n\n\t\t<iframe style=\"margin-bottom: 50px;\" width='100%' height='240px' frameBorder='0' src='http://a.tiles.mapbox.com/v3/rickwaalders.h349m5jj/attribution.html'></iframe>\n\n\n\n\t\t<div class=\"row\">\n\n\t\t\t<div class=\"large-12 columns\">\n\n\t\t\t    <h2>How it started</h2>\n\n\t\t\t    <p>\n\t\t\t      \tIn 2009, my colleague Sjoerd Perfors and I were frustrated that there were no traffic apps for The Netherlands that showed where there were speedtraps, traffic jams and speed cameras. So we decided to build one ourselves. After 6 months of designing and developing after our day job and during the weekends, we where finished with our first version. We decided we wanted to release it to the public and submitted it to the App Store in the beginning of 2010. What happened next was something we would have never expected. People started downloading the app and a few years later we reached half a million active users.\n\t\t\t    </p>\n\n\t\t\t    <p>\n\t\t\t    \tTogether with Sjoerd Perfors, Jaco de Vries, Jorn de Vries, Ruben Meijering, Ruben Ernst and Nick Meessen we're working every day trying to improve our traffic service through our apps and website. We're working closely with some of the biggest companies in our country to make sure we keep improving our growth rate and reach as many people as we can.\n\t\t\t    </p>\n\n\t\t\t    <p>\n\t\t\t    \tAs a co-founder, not only have I been responsible for a lot of the design and development work, together with Sjoerd Perfors and Jaco de Vries I'm also responsible for making the bigger decisions through our management team.\n\t\t\t    </p>\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\n\n    </div>\n\n\n\n\n\n\t<div id=\"flitsmeister-bottom\">\n\n\t\t<div class=\"row\">\n\n\t\t\t<div class=\"large-12 columns\">\n\n\t\t\t    <h2>Project Info</h2>\n\n\t\t\t\t<dl class=\"project-details\">\n\t\t\t\t\t<dt>Client</dt>\n\t\t\t\t\t<dd>Personal</dd>\n\t\t\t\t\t<dt>Responsible for</dt>\n\t\t\t\t\t<dd>Idea, Design, Development</dd>\n\t\t\t\t\t<dt>Type</dt>\n\t\t\t\t\t<dd>Startup</dd>\n\t\t\t\t</dl>\n\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\n\t\t<div class=\"row\">\n\n\t\t\t<div class=\"large-12 columns\">\n\n\t\t\t    <h2>Timeline</h2>\n\n\t\t\t    <p>\n\t\t\t    users, bnr, nieuwe versies, etc\n\t\t\t    </p>\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\n\t\t<div class=\"row\">\n\n\t\t\t<div class=\"large-12 columns\">\n\n\t\t\t    <h2>Press mentions</h2>\n\n\t\t\t    <p>\n\t\t\t    mostly dutch\n\t\t\t      \t...\n\t\t\t    </p>\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\n\t</div>\n\n",
+        "mixture_date": "2013-04-03T00:00:00Z",
+        "topStyle": "top-light",
+        "bgPrefix": "flitsmeister",
+        "ticks": 1364947200.0,
+        "year": "2013",
+        "role": "Idea, Design, Development",
+        "slug": "/work/flitsmeister",
+        "title": "Flitsmeister",
+        "published": true,
+        "type": "Startup"
+      },
+      "/work/alarmik": {
+        "layout": "work-item",
+        "month": "04",
+        "client": "Personal",
+        "date": "Wed Apr 03 00:00:00 UTC 2013",
+        "mixture_month_year": "04/2013",
+        "body": "\n\n    <div id=\"alarmik-top\" class=\"text-center\">\n\n    \t<div class=\"text-center\">\n        \t<img src=\"../assets/projects/alarmik-realpixels.png\" class=\"realpx-iphone\"/>\n        </div>\n        <div class=\"clearfix\">&nbsp;</div>\n\n\t    <span data-picture data-alt=\"Alarmik for iPhone\" class=\"maxwidth\">\n\t        <span data-src=\"../assets/projects/alarmik4-small.png\"></span>\n\t        <span data-src=\"../assets/projects/alarmik4.png\" data-media=\"(min-width: 480px)\"></span>\n\t        <noscript>\n\t            <img src=\"../assets/projects/alarmik4.png\" alt=\"Alarmik for iPhone\">\n\t        </noscript>\n\t    </span>\n\n\t    <span data-picture data-alt=\"Alarmik for iPhone\" class=\"maxwidth\">\n\t        <span data-src=\"../assets/projects/alarmik5-small.png\"></span>\n\t        <span data-src=\"../assets/projects/alarmik5.png\" data-media=\"(min-width: 480px)\"></span>\n\t        <noscript>\n\t            <img src=\"../assets/projects/alarmik5.png\" alt=\"Alarmik for iPhone\">\n\t        </noscript>\n\t    </span>\n\n\t    <span data-picture data-alt=\"Alarmik for iPhone\" class=\"maxwidth\">\n\t        <span data-src=\"../assets/projects/alarmik6-small.png\"></span>\n\t        <span data-src=\"../assets/projects/alarmik6.png\" data-media=\"(min-width: 480px)\"></span>\n\t        <noscript>\n\t            <img src=\"../assets/projects/alarmik6.png\" alt=\"Alarmik for iPhone\">\n\t        </noscript>\n\t    </span>\n\n\t    <span data-picture data-alt=\"Alarmik for iPhone\" class=\"maxwidth\">\n\t        <span data-src=\"../assets/projects/alarmik7-small.png\"></span>\n\t        <span data-src=\"../assets/projects/alarmik7.png\" data-media=\"(min-width: 480px)\"></span>\n\t        <noscript>\n\t            <img src=\"../assets/projects/alarmik7.png\" alt=\"Alarmik for iPhone\">\n\t        </noscript>\n\t    </span>\n\n\t    <span data-picture data-alt=\"Alarmik for iPhone\" class=\"maxwidth\">\n\t        <span data-src=\"../assets/projects/alarmik8-small.png\"></span>\n\t        <span data-src=\"../assets/projects/alarmik8.png\" data-media=\"(min-width: 480px)\"></span>\n\t        <noscript>\n\t            <img src=\"../assets/projects/alarmik8.png\" alt=\"Alarmik for iPhone\">\n\t        </noscript>\n\t    </span>\n\n\t    <span data-picture data-alt=\"Alarmik for iPhone\" class=\"maxwidth\">\n\t        <span data-src=\"../assets/projects/alarmik3-small.png\"></span>\n\t        <span data-src=\"../assets/projects/alarmik3.png\" data-media=\"(min-width: 480px)\"></span>\n\t        <noscript>\n\t            <img src=\"../assets/projects/alarmik3.png\" alt=\"Alarmik for iPhone\">\n\t        </noscript>\n\t    </span>\n\n\t    <span data-picture data-alt=\"Alarmik for iPhone\" class=\"maxwidth\">\n\t        <span data-src=\"../assets/projects/alarmik2-small.png\"></span>\n\t        <span data-src=\"../assets/projects/alarmik2.png\" data-media=\"(min-width: 480px)\"></span>\n\t        <noscript>\n\t            <img src=\"../assets/projects/alarmik2.png\" alt=\"Alarmik for iPhone\">\n\t        </noscript>\n\t    </span>\n      \n    </div>\n\n\t<div id=\"alarmik-bottom\">\n\n\t\t<div class=\"row\">\n\n\t\t\t<div class=\"large-12 columns\">\n\n\t\t\t    <h2>Project Info</h2>\n\n\t\t\t\t<dl class=\"project-details\">\n\t\t\t\t\t<dt>Client</dt>\n\t\t\t\t\t<dd>Personal</dd>\n\t\t\t\t\t<dt>Responsible for</dt>\n\t\t\t\t\t<dd>Idea, Design, Development</dd>\n\t\t\t\t\t<dt>Type</dt>\n\t\t\t\t\t<dd>iPhone App</dd>\n\t\t\t\t</dl>\n\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\n\t\t<div class=\"row\">\n\n\t\t\t<div class=\"large-12 columns\">\n\n\t\t\t    <h2>Status</h2>\n\n\t\t\t    <p>\n\t\t\t      \tAlarmik is a concept I've been exploring since January 2013. One of the reasons I've been holding off development for a while is that as of right now it's still not possible to set a real alarm in iOS7. You can only play a sound that ignores the 'silent switch' of the iPhone if your app is running in the background. I hope Apple will give us access to setting an actual alarm in the future so third party alarm clock apps don't need to give the user a big set of instructions to set an alarm that will actually wake them in the morning..\n\t\t\t    </p>\n\t\t\t</div>\n\t\t\t\n\t\t</div>\n\n\t</div>\n\n",
+        "mixture_date": "2013-04-03T00:00:00Z",
+        "topStyle": "top-light",
+        "bgPrefix": "alarmik",
+        "ticks": 1364947200.0,
+        "year": "2013",
+        "role": "Idea, Design, Development",
+        "slug": "/work/alarmik",
+        "title": "Wake up in style",
+        "published": true,
+        "bottomStyle": "bottom-light",
+        "type": "iPhone App"
       },
       "/work/dragshare": {
-        "bgPrefix": "dragshare",
-        "mixture_month_year": "04/2013",
-        "client": "Personal",
-        "mixture_date": "2013-04-03T00:00:00Z",
-        "year": "2013",
-        "body": "\n\n    <div id=\"dragshare-top\" class=\"text-center\">\n      \n        <img src=\"../assets/projects/dragshare-onboarding.png\" title=\"Dragshare for Dropbox - Mac App Onboarding Screenshot\" />\n\n    </div>\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>Introduction</h2>\n\n\t\t    <p>\n\t\t      \tSince Drew Houston first introduced his YC app: Dropbox - 'Throw away your USB drive' on <a href=\"https://news.ycombinator.com/item?id=8863\">HN</a> in 2007, the way we sync and share files hasn't been the same. For those of you who are not yet familiar with the concept of Dropbox;\n\t\t    </p>\n\n\t\t\t<blockquote class=\"quote\">Dropbox is a home for all your photos, docs, videos, and files. Anything you add to Dropbox will automatically show up on all your computers, phones and even the Dropbox website — so you can access your stuff from anywhere.\n\t\t\t<div class=\"author\"><cite><a title=\"Dropbox - Tour\" href=\"https://www.dropbox.com/tour/1\">Dropbox - Tour</a></cite>\n\t\t\t</div>\n\t\t\t</blockquote>\n\n\t\t    <p>\n\t\t      \tI use Dropbox every day. It's the place where I store all my photos and sync them to/from my iPhone automatically, it's the service I use to sync files with clients, co-workers and friends. It's fast, reliable and best of all: very easy to use.\n\t\t    </p>\n\n\t\t    <p>\n\t\t      \tFiles on Dropbox are private by default. As long as you don't give anyone access to your files or specific folders, no-one else can view or download them. \n\t\t      \t<br />\n\t\t\t\tOne of the great features of Dropbox is being able to share a file or folder with a public url, like this. You can, for example, use this feature to share a photo or any other image on Twitter where people can view it (even if they don't have a Dropbox account), or you can use it to quickly share a folder with a client without having to give them special permissions to sync the folder in their own Dropbox.\n\t\t\t</p>\n\n\n\t\t</div>\n\n\t</div>\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>The problem</h2>\n\n\t\t    <p>\n\t\t      \tSharing a file through Dropbox is easy, but it's not a one step process. Let's say you want to share a .png file of a design you made with your followers on Twitter. You have to go to your Dropbox folder in Finder, place the file you want to share somewhere in your Dropbox folder, right-click it, click 'Share Dropbox-link' and then you're able to share the link with others. If sharing files is something you do on a daily basis, this process can be a bit devious.\n\t\t    </p>\n\n\t\t    <p>\n\t\t      \tDropbox was not the only services that made file sharing possible. There were a couple of other services that focused on file sharing only. Those other services had apps that made sharing files more easy, but the downside was that if you already own a Dropbox account, you now had to pay again for that other service. This could be a waste of money for some people. \n\t\t    </p>\n\n\t\t    <p>\n\t\t      \tAnother issue with services other than Dropbox is that your files are stored on their thirdparty server, which you might or might not trust. Dropbox on the other hand does everything they can possibly do to make sure your files are <a href=\"https://www.dropbox.com/help/27/en\">safe</a>.\n\t\t    </p>\n\n\t\t</div>\n\t\t\n\t</div>\n\n\n\n\n    <div class=\"text-center\" style=\"background-color: #000000;margin-bottom:100px;\">\n      \n\t\t\t<img src=\"../assets/projects/dragshare2.png\" />\n\n    </div>\n\t\t\n\n\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>The solution</h2>\n\n\t\t    <p>\n\t\t      \tWith all of the above in mind, I thought I'd save myself some time and money and create an app that had made sharing files through your existing Dropbox account really easy. \n\t\t\t\tOn a friday evening with a few beers and some music, Dragshare was born.\n\t\t\t\tThe result was a menu bar item app for your Mac, that can be used to drag files too which automatically turn into a Dropbox-link. When you drag a file to the menu bar icon, it puts the file in your Dropbox, creates the Dropbox-link that you can share and copies it your clipboard, all in a single step. Just drag & drop. \n\t\t\t\tNo need to pay for another service. None of your files stored on a server that you do not trust. Just fast and easy file sharing.\n\t\t    </p>\n\n\t\t</div>\n\t\t\n\t</div>\n\n    <div class=\"text-center\">\n      \n        <img src=\"../assets/projects/dragshare3.png\"  />\n\n    </div>\n\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>Twitter, Facebook, Email, Custom Landing Pages...</h2>\n\n\t\t    <p>\n\t\t      \tA lot of people have different use cases when they are sharing files. Some people share a single file, others want to share complete folders. Some people just want to copy/paste the Dropbox-link somewhere themselves, others want to post it on Twitter or Facebook as quickly as possible, or email the link to a co-worker. \n\t\t\t\tSome people love the default landing page when sharing a file through Dropbox, other people want to completely customize it. All of this is possible with Dragshare. Check out the video if you'd like to see how it all works, or read the documentation of you have any questions regarding themes or other features.\n\t\t    </p>\n\n\t\t</div>\n\t\t\n\t</div>\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>What others say</h2>\n\n\t\t    <p>\n\t\t      \tSince it's launch in December, 2013, Dragshare has been getting a lot of positive reviews. A lot of people seem to have the same problem and are looking for a way to fix it. \n\t\t    </p>\t      \n\n\t\t\t<blockquote class=\"quote\">If you share a lot of Dropbox links, Dragshare for Dropbox is an inexpensive way to make the process a little faster and easier.\n\t\t\t<div class=\"author\"><cite><a href=\"http://www.macworld.com/article/2082566/review-dragshare-for-dropbox-makes-sharing-links-less-painful.html\">MacWorld.com</a></cite>\n\t\t\t</div>\n\t\t\t</blockquote>\n\n\t\t\t<blockquote class=\"quote\">This $2 application makes this process automatic, and could be a real time saver for those who use this cloud storage as their primary online file depository.\n\t\t\t<div class=\"author\"><cite><a href=\"http://macreview.com/2014/01/dragshare-review/\">MacReview.com</a></cite>\n\t\t\t</div>\n\t\t\t</blockquote>\n\n\t\t</div>\n\t\t\n\t</div>\n\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>Project Info</h2>\n\n\t\t\t<dl class=\"project-details\">\n\t\t\t\t<dt>Client</dt>\n\t\t\t\t<dd>Personal</dd>\n\t\t\t\t<dt>Responsible for</dt>\n\t\t\t\t<dd>Idea, Design, Development (Obj-C)</dd>\n\t\t\t\t<dt>Type</dt>\n\t\t\t\t<dd>Mac OS X App</dd>\n\t\t\t</dl>\n\n\t\t</div>\n\t\t\n\t</div>\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>Download</h2>\n\n\t\t    <p>\n\t\t      \tDragshare is available as a Mac app through the <a href=\"https://itunes.apple.com/us/app/dragshare/id707059884?ls=1&mt=12\">Mac App Store</a>, for a price of $1.99  (or equivalent amount in other currencies).\n\t\t\t\tIf you want to try it for free first, there's a free 15-day (fully functional) trial available on the <a href=\"http://dragshare.co\">Dragshare website</a>.\n\t\t    </p>\n\n\t\t</div>\n\t\t\n\t</div>\n",
-        "date": "Wed Apr 03 00:00:00 UTC 2013",
         "layout": "work-item",
         "month": "04",
-        "published": true,
+        "client": "Personal",
+        "date": "Wed Apr 03 00:00:00 UTC 2013",
+        "mixture_month_year": "04/2013",
+        "body": "\n\n    <div id=\"dragshare-top\" class=\"text-center\">\n      \n        <img src=\"../assets/projects/dragshare-onboarding.png\" title=\"Dragshare for Dropbox - Mac App Onboarding Screenshot\" />\n\n    </div>\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>Introduction</h2>\n\n\t\t    <p>\n\t\t      \tSince Drew Houston first introduced his YC app: Dropbox - 'Throw away your USB drive' on <a href=\"https://news.ycombinator.com/item?id=8863\">HN</a> in 2007, the way we sync and share files hasn't been the same. For those of you who are not yet familiar with the concept of Dropbox;\n\t\t    </p>\n\n\t\t\t<blockquote class=\"quote\">Dropbox is a home for all your photos, docs, videos, and files. Anything you add to Dropbox will automatically show up on all your computers, phones and even the Dropbox website — so you can access your stuff from anywhere.\n\t\t\t<div class=\"author\"><cite><a title=\"Dropbox - Tour\" href=\"https://www.dropbox.com/tour/1\">Dropbox - Tour</a></cite>\n\t\t\t</div>\n\t\t\t</blockquote>\n\n\t\t    <p>\n\t\t      \tI use Dropbox every day. It's the place where I store all my photos and sync them to/from my iPhone automatically, it's the service I use to sync files with clients, co-workers and friends. It's fast, reliable and best of all: very easy to use.\n\t\t    </p>\n\n\t\t    <p>\n\t\t      \tFiles on Dropbox are private by default. As long as you don't give anyone access to your files or specific folders, no-one else can view or download them. \n\t\t      \t<br />\n\t\t\t\tOne of the great features of Dropbox is being able to share a file or folder with a public url, like this. You can, for example, use this feature to share a photo or any other image on Twitter where people can view it (even if they don't have a Dropbox account), or you can use it to quickly share a folder with a client without having to give them special permissions to sync the folder in their own Dropbox.\n\t\t\t</p>\n\n\n\t\t</div>\n\n\t</div>\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>The problem</h2>\n\n\t\t    <p>\n\t\t      \tSharing a file through Dropbox is easy, but it's not a one step process. Let's say you want to share a .png file of a design you made with your followers on Twitter. You have to go to your Dropbox folder in Finder, place the file you want to share somewhere in your Dropbox folder, right-click it, click 'Share Dropbox-link' and then you're able to share the link with others. If sharing files is something you do on a daily basis, this process can be a bit devious.\n\t\t    </p>\n\n\t\t    <p>\n\t\t      \tDropbox was not the only services that made file sharing possible. There were a couple of other services that focused on file sharing only. Those other services had apps that made sharing files more easy, but the downside was that if you already own a Dropbox account, you now had to pay again for that other service. This could be a waste of money for some people. \n\t\t    </p>\n\n\t\t    <p>\n\t\t      \tAnother issue with services other than Dropbox is that your files are stored on their thirdparty server, which you might or might not trust. Dropbox on the other hand does everything they can possibly do to make sure your files are <a href=\"https://www.dropbox.com/help/27/en\">safe</a>.\n\t\t    </p>\n\n\t\t</div>\n\t\t\n\t</div>\n\n\n\n\n    <div class=\"text-center\" style=\"background-color: #000000;margin-bottom:100px;\">\n      \n\t\t\t<img src=\"../assets/projects/dragshare2.png\" />\n\n    </div>\n\t\t\n\n\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>The solution</h2>\n\n\t\t    <p>\n\t\t      \tWith all of the above in mind, I thought I'd save myself some time and money and create an app that had made sharing files through your existing Dropbox account really easy. \n\t\t\t\tOn a friday evening with a few beers and some music, Dragshare was born.\n\t\t\t\tThe result was a menu bar item app for your Mac, that can be used to drag files too which automatically turn into a Dropbox-link. When you drag a file to the menu bar icon, it puts the file in your Dropbox, creates the Dropbox-link that you can share and copies it your clipboard, all in a single step. Just drag & drop. \n\t\t\t\tNo need to pay for another service. None of your files stored on a server that you do not trust. Just fast and easy file sharing.\n\t\t    </p>\n\n\t\t</div>\n\t\t\n\t</div>\n\n    <div class=\"text-center\">\n      \n        <img src=\"../assets/projects/dragshare3.png\"  />\n\n    </div>\n\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>Twitter, Facebook, Email, Custom Landing Pages...</h2>\n\n\t\t    <p>\n\t\t      \tA lot of people have different use cases when they are sharing files. Some people share a single file, others want to share complete folders. Some people just want to copy/paste the Dropbox-link somewhere themselves, others want to post it on Twitter or Facebook as quickly as possible, or email the link to a co-worker. \n\t\t\t\tSome people love the default landing page when sharing a file through Dropbox, other people want to completely customize it. All of this is possible with Dragshare. Check out the video if you'd like to see how it all works, or read the documentation of you have any questions regarding themes or other features.\n\t\t    </p>\n\n\t\t</div>\n\t\t\n\t</div>\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>What others say</h2>\n\n\t\t    <p>\n\t\t      \tSince it's launch in December, 2013, Dragshare has been getting a lot of positive reviews. A lot of people seem to have the same problem and are looking for a way to fix it. \n\t\t    </p>\t      \n\n\t\t\t<blockquote class=\"quote\">If you share a lot of Dropbox links, Dragshare for Dropbox is an inexpensive way to make the process a little faster and easier.\n\t\t\t<div class=\"author\"><cite><a href=\"http://www.macworld.com/article/2082566/review-dragshare-for-dropbox-makes-sharing-links-less-painful.html\">MacWorld.com</a></cite>\n\t\t\t</div>\n\t\t\t</blockquote>\n\n\t\t\t<blockquote class=\"quote\">This $2 application makes this process automatic, and could be a real time saver for those who use this cloud storage as their primary online file depository.\n\t\t\t<div class=\"author\"><cite><a href=\"http://macreview.com/2014/01/dragshare-review/\">MacReview.com</a></cite>\n\t\t\t</div>\n\t\t\t</blockquote>\n\n\t\t</div>\n\t\t\n\t</div>\n\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>Project Info</h2>\n\n\t\t\t<dl class=\"project-details\">\n\t\t\t\t<dt>Client</dt>\n\t\t\t\t<dd>Personal</dd>\n\t\t\t\t<dt>Responsible for</dt>\n\t\t\t\t<dd>Idea, Design, Development (Obj-C)</dd>\n\t\t\t\t<dt>Type</dt>\n\t\t\t\t<dd>Mac OS X App</dd>\n\t\t\t</dl>\n\n\t\t</div>\n\t\t\n\t</div>\n\n\t<div class=\"row\">\n\n\t\t<div class=\"large-12 columns\">\n\n\t\t    <h2>Download</h2>\n\n\t\t    <p>\n\t\t      \tDragshare is available as a Mac app through the <a href=\"https://itunes.apple.com/us/app/dragshare/id707059884?ls=1&mt=12\">Mac App Store</a>, for a price of $1.99  (or equivalent amount in other currencies).\n\t\t\t\tIf you want to try it for free first, there's a free 15-day (fully functional) trial available on the <a href=\"http://dragshare.co\">Dragshare website</a>.\n\t\t    </p>\n\n\t\t</div>\n\t\t\n\t</div>\n",
+        "mixture_date": "2013-04-03T00:00:00Z",
+        "bgPrefix": "dragshare",
+        "ticks": 1364947200.0,
+        "year": "2013",
         "role": "Idea, Design, Development (Obj-C)",
         "slug": "/work/dragshare",
-        "ticks": 1364947200.0,
         "title": "Dragshare for Dropbox",
+        "published": true,
         "type": "Mac OS X App"
       }
     },
     "index": {
-      "transliterated-hideTop": {
-        "true": [
+      "layout": {
+        "work-item": [
           "/work/fitness-tracker",
-          "/work/flitsmeister"
+          "/work/flitsmeister",
+          "/work/alarmik",
+          "/work/dragshare"
         ]
       },
       "transliterated-title": {
+        "flitsmeister": [
+          "/work/flitsmeister"
+        ],
         "fitness-tracker": [
           "/work/fitness-tracker"
         ],
@@ -201,60 +206,27 @@
         ],
         "wake-up-in-style": [
           "/work/alarmik"
-        ],
-        "flitsmeister": [
-          "/work/flitsmeister"
-        ]
-      },
-      "bgPrefix": {
-        "fitness-tracker": [
-          "/work/fitness-tracker"
-        ],
-        "alarmik": [
-          "/work/alarmik"
-        ],
-        "dragshare": [
-          "/work/dragshare"
-        ],
-        "flitsmeister": [
-          "/work/flitsmeister"
-        ]
-      },
-      "transliterated-client": {
-        "personal": [
-          "/work/fitness-tracker",
-          "/work/alarmik",
-          "/work/flitsmeister",
-          "/work/dragshare"
         ]
       },
       "client": {
         "personal": [
           "/work/fitness-tracker",
-          "/work/alarmik",
           "/work/flitsmeister",
+          "/work/alarmik",
           "/work/dragshare"
         ]
       },
-      "mixture_month_year": {
-        "04/2013": [
+      "month": {
+        "04": [
           "/work/fitness-tracker",
-          "/work/alarmik",
           "/work/flitsmeister",
+          "/work/alarmik",
           "/work/dragshare"
         ]
       },
-      "transliterated-bgPrefix": {
-        "fitness-tracker": [
-          "/work/fitness-tracker"
-        ],
-        "alarmik": [
-          "/work/alarmik"
-        ],
-        "dragshare": [
-          "/work/dragshare"
-        ],
-        "flitsmeister": [
+      "hideTop": {
+        "true": [
+          "/work/fitness-tracker",
           "/work/flitsmeister"
         ]
       },
@@ -262,13 +234,21 @@
         "/work/fitness-tracker": [
           "/work/fitness-tracker"
         ],
-        "/work/alarmik": [
-          "/work/alarmik"
-        ],
         "/work/flitsmeister": [
           "/work/flitsmeister"
         ],
+        "/work/alarmik": [
+          "/work/alarmik"
+        ],
         "/work/dragshare": [
+          "/work/dragshare"
+        ]
+      },
+      "mixture_month_year": {
+        "04/2013": [
+          "/work/fitness-tracker",
+          "/work/flitsmeister",
+          "/work/alarmik",
           "/work/dragshare"
         ]
       },
@@ -278,93 +258,33 @@
           "/work/alarmik"
         ]
       },
-      "layout": {
-        "work-item": [
+      "transliterated-topStyle": {
+        "top-light": [
           "/work/fitness-tracker",
-          "/work/alarmik",
           "/work/flitsmeister",
-          "/work/dragshare"
+          "/work/alarmik"
         ]
       },
-      "year": {
-        "2013": [
+      "topStyle": {
+        "top-light": [
           "/work/fitness-tracker",
-          "/work/alarmik",
           "/work/flitsmeister",
-          "/work/dragshare"
+          "/work/alarmik"
         ]
       },
       "mixture_date": {
         "2013-04-03t00:00:00z": [
           "/work/fitness-tracker",
-          "/work/alarmik",
           "/work/flitsmeister",
+          "/work/alarmik",
           "/work/dragshare"
         ]
       },
-      "role": {
-        "idea, design, development (obj-c)": [
-          "/work/dragshare"
-        ],
-        "idea, design, development": [
+      "transliterated-client": {
+        "personal": [
           "/work/fitness-tracker",
-          "/work/alarmik",
-          "/work/flitsmeister"
-        ]
-      },
-      "month": {
-        "04": [
-          "/work/fitness-tracker",
-          "/work/alarmik",
           "/work/flitsmeister",
-          "/work/dragshare"
-        ]
-      },
-      "transliterated-type": {
-        "mac-os-x-app": [
-          "/work/dragshare"
-        ],
-        "startup": [
-          "/work/flitsmeister"
-        ],
-        "iphone-app": [
-          "/work/fitness-tracker",
-          "/work/alarmik"
-        ]
-      },
-      "slug": {
-        "/work/fitness-tracker": [
-          "/work/fitness-tracker"
-        ],
-        "/work/alarmik": [
-          "/work/alarmik"
-        ],
-        "/work/flitsmeister": [
-          "/work/flitsmeister"
-        ],
-        "/work/dragshare": [
-          "/work/dragshare"
-        ]
-      },
-      "title": {
-        "wake up in style": [
-          "/work/alarmik"
-        ],
-        "dragshare for dropbox": [
-          "/work/dragshare"
-        ],
-        "flitsmeister": [
-          "/work/flitsmeister"
-        ],
-        "fitness tracker": [
-          "/work/fitness-tracker"
-        ]
-      },
-      "ticks": {
-        "1364947200.0": [
-          "/work/fitness-tracker",
           "/work/alarmik",
-          "/work/flitsmeister",
           "/work/dragshare"
         ]
       },
@@ -374,15 +294,109 @@
         ],
         "idea-design-development": [
           "/work/fitness-tracker",
-          "/work/alarmik",
+          "/work/flitsmeister",
+          "/work/alarmik"
+        ]
+      },
+      "bgPrefix": {
+        "alarmik": [
+          "/work/alarmik"
+        ],
+        "flitsmeister": [
           "/work/flitsmeister"
+        ],
+        "fitness-tracker": [
+          "/work/fitness-tracker"
+        ],
+        "dragshare": [
+          "/work/dragshare"
+        ]
+      },
+      "title": {
+        "dragshare for dropbox": [
+          "/work/dragshare"
+        ],
+        "wake up in style": [
+          "/work/alarmik"
+        ],
+        "flitsmeister": [
+          "/work/flitsmeister"
+        ],
+        "fitness tracker": [
+          "/work/fitness-tracker"
+        ]
+      },
+      "slug": {
+        "/work/fitness-tracker": [
+          "/work/fitness-tracker"
+        ],
+        "/work/flitsmeister": [
+          "/work/flitsmeister"
+        ],
+        "/work/alarmik": [
+          "/work/alarmik"
+        ],
+        "/work/dragshare": [
+          "/work/dragshare"
+        ]
+      },
+      "role": {
+        "idea, design, development (obj-c)": [
+          "/work/dragshare"
+        ],
+        "idea, design, development": [
+          "/work/fitness-tracker",
+          "/work/flitsmeister",
+          "/work/alarmik"
+        ]
+      },
+      "year": {
+        "2013": [
+          "/work/fitness-tracker",
+          "/work/flitsmeister",
+          "/work/alarmik",
+          "/work/dragshare"
+        ]
+      },
+      "ticks": {
+        "1364947200.0": [
+          "/work/fitness-tracker",
+          "/work/flitsmeister",
+          "/work/alarmik",
+          "/work/dragshare"
         ]
       },
       "transliterated-layout": {
         "work-item": [
           "/work/fitness-tracker",
-          "/work/alarmik",
           "/work/flitsmeister",
+          "/work/alarmik",
+          "/work/dragshare"
+        ]
+      },
+      "transliterated-bgPrefix": {
+        "alarmik": [
+          "/work/alarmik"
+        ],
+        "flitsmeister": [
+          "/work/flitsmeister"
+        ],
+        "fitness-tracker": [
+          "/work/fitness-tracker"
+        ],
+        "dragshare": [
+          "/work/dragshare"
+        ]
+      },
+      "transliterated-type": {
+        "startup": [
+          "/work/flitsmeister"
+        ],
+        "iphone-app": [
+          "/work/fitness-tracker",
+          "/work/alarmik"
+        ],
+        "mac-os-x-app": [
           "/work/dragshare"
         ]
       },
@@ -392,36 +406,22 @@
           "/work/alarmik"
         ]
       },
-      "type": {
-        "iphone app": [
-          "/work/fitness-tracker",
-          "/work/alarmik"
-        ],
-        "mac os x app": [
-          "/work/dragshare"
-        ],
-        "startup": [
-          "/work/flitsmeister"
-        ]
-      },
-      "topStyle": {
-        "top-light": [
-          "/work/fitness-tracker",
-          "/work/alarmik",
-          "/work/flitsmeister"
-        ]
-      },
-      "hideTop": {
+      "transliterated-hideTop": {
         "true": [
           "/work/fitness-tracker",
           "/work/flitsmeister"
         ]
       },
-      "transliterated-topStyle": {
-        "top-light": [
-          "/work/fitness-tracker",
-          "/work/alarmik",
+      "type": {
+        "startup": [
           "/work/flitsmeister"
+        ],
+        "mac os x app": [
+          "/work/dragshare"
+        ],
+        "iphone app": [
+          "/work/fitness-tracker",
+          "/work/alarmik"
         ]
       }
     }
