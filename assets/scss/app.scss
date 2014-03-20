@@ -577,6 +577,44 @@ a.close-big {
 	transition: all 0.6s cubic-bezier(0.16, 0.83, 0.21, 1);
 }
 
+.top-light a.close-big {
+	background-image: url(../img/close-light.png);
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) and (min-width: 40em) { 
+
+	a.close-big {
+		background-image: url(../img/close@2x.png);
+		background-size: 50px 50px;
+	}
+
+	.top-light a.close-big {
+		background-image: url(../img/close-light@2x.png);
+		background-size: 50px 50px;
+	}
+
+}
+
+@media only screen and (max-width: 40em) { 
+
+	a.close-big {
+		width: 25px;
+		height: 25px;
+		background-image: url(../img/close.png);
+		background-size: 25px 25px;
+	}
+
+	.top-light a.close-big {
+		width: 25px;
+		height: 25px;
+		background-image: url(../img/close-light.png);
+		background-size: 25px 25px;
+	}
+
+}
+
 a.close-big:hover {
 	-webkit-transform: rotate(-90deg);
 	-moz-transform: rotate(-90deg);
@@ -713,10 +751,6 @@ a.navigate-down span {
 .top-light #project-nav a:hover {
 	color: White;
 	opacity: 0.8;
-}
-
-.top-light a.close-big {
-	background-image: url(../img/close-light.png);
 }
 
 @media only screen and (max-width: 40em) { 
