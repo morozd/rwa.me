@@ -43,32 +43,28 @@ $( window ).scroll(function() {
 
 $(function() {
 
-	if ($('#recent-shots').length)
+	if ($('#recent-shots-1').length)
 	{
 
-		$.getJSON('//api.dribbble.com/players/rickwaalders/shots?page=0&per_page=8&callback=?', function(remoteData){
+		$.getJSON('//api.dribbble.com/players/rickwaalders/shots?page=0&per_page=9&callback=?', function(remoteData){
 			
 			if (remoteData && remoteData.shots.length)
 			{
-				var html = '<ul class="shots">';
-
 				for(var i = 0;i < remoteData.shots.length;i++)
 				{
 					var shot = remoteData.shots[i];
-					
-					html += '<li>
-						<div class="shot-container">
+
+					var html = '<div class="shot-container">
+						<div class="shot">
 						<a href="'+shot.url+'" target="_blank">
-							<img src="'+shot.image_url+'" class="shot" border="0" />
+							<img src="'+shot.image_url+'" class="shot-image" border="0" />
 							<div class="shot-info">'+shot.likes_count+' likes</div>
 						</a>
-						</div>
-					</li>';
+						</div></div>';
+
+					var containerId = "#recent-shots-"+(i+1);
+					$(containerId).html(html);
 				}
-
-				html += '</ul>';
-
-				$("#recent-shots").html(html);
 			}
 
 		})

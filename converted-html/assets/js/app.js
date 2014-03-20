@@ -40,3 +40,34 @@ $( window ).scroll(function() {
 		}
 	}
 });
+
+$(function() {
+
+	if ($('#recent-shots-1').length)
+	{
+
+		$.getJSON('//api.dribbble.com/players/rickwaalders/shots?page=0&per_page=9&callback=?', function(remoteData){
+			
+			if (remoteData && remoteData.shots.length)
+			{
+				for(var i = 0;i < remoteData.shots.length;i++)
+				{
+					var shot = remoteData.shots[i];
+
+					var html = '<div class="shot-container">
+						<div class="shot">
+						<a href="'+shot.url+'" target="_blank">
+							<img src="'+shot.image_url+'" class="shot-image" border="0" />
+							<div class="shot-info">'+shot.likes_count+' likes</div>
+						</a>
+						</div></div>';
+
+					var containerId = "#recent-shots-"+(i+1);
+					$(containerId).html(html);
+				}
+			}
+
+		})
+	}
+
+});
