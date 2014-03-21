@@ -166,6 +166,21 @@ a:hover {
 	color: $dark-text-color;
 }
 
+.flitsmeister-top-screens {
+	background-color: $flitsmeister-color;
+	margin-bottom: 75px;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+@media only screen and (max-width: 40em) { 
+
+	.flitsmeister-top-screens {
+		padding-top: 90px;
+		padding-bottom: 25px;
+	}
+
+}
 
 #top {
 	padding-top: 100px;
@@ -423,12 +438,12 @@ a.cta:hover {
 	margin-bottom: 50px;
 }
 
-#work .row {
-	margin-bottom: 0 !important;
+#work-items {
+	margin-top: 50px;
 }
 
-.project-image {
-
+#work .row {
+	margin-bottom: 50px !important;
 }
 
 .project {
@@ -500,6 +515,25 @@ a.cta:hover {
 	font-size: 1.2em;
 	color: $light-text-color;
 }
+
+
+
+@media only screen and (max-width: 40em) { 
+
+	#work-items {
+		margin-top: 20px;
+	}
+
+	#work .row {
+		margin-bottom: 0px !important;
+	}
+
+	.project {
+		margin-bottom: 15px;
+	}
+
+}
+
 
 /* Projects - Full */
 
@@ -602,6 +636,7 @@ a.close-big {
 	a.close-big {
 		width: 25px;
 		height: 25px;
+		top: 25px;
 		background-image: url(../img/close.png);
 		background-size: 25px 25px;
 	}
@@ -1228,11 +1263,14 @@ footer .columns {
 	padding: 0;
 }
 
+.shots .row {
+	margin-bottom: 25px !important;
+}
+
 .shots .shot-container {
 	border: 1px solid #ddd;
 	background-color: White;
 	float: left;
-	margin: 5px;
 	position: relative;
 }
 
@@ -1289,6 +1327,26 @@ footer .columns {
 
 .shots .shot-container a:hover .shot-info {
 	opacity: 1.0;
+}
+
+.shots {
+	margin-top: 50px;
+}
+
+@media only screen and (max-width: 40em) { 
+
+	.shots {
+		margin-top: 20px;
+	}
+
+	.shots .row {
+		margin-bottom: 0 !important;
+	}
+
+	.shots .shot-container {
+		margin-bottom: 10px;
+	}
+
 }
 
 /* Spinner - Spinkit -  */
