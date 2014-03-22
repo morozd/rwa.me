@@ -2003,6 +2003,17 @@ a:hover {
 .flitsmeister a:hover {
   color: #1a1e1f; }
 
+.flitsmeister-top-screens {
+  background-color: #1a75b6;
+  margin-bottom: 75px;
+  padding-top: 75px;
+  padding-bottom: 75px; }
+
+@media only screen and (max-width: 40em) {
+  .flitsmeister-top-screens {
+    padding-top: 90px;
+    padding-bottom: 25px; } }
+
 #top {
   padding-top: 100px;
   padding-bottom: 75px; }
@@ -2198,9 +2209,11 @@ a.cta:hover {
 #work {
   margin-bottom: 50px; }
 
-#work .row {
-  margin-bottom: 0 !important; }
+#work-items {
+  margin-top: 50px; }
 
+#work .row {
+  margin-bottom: 50px !important; }
 
 .project {
   margin-bottom: 25px;
@@ -2255,6 +2268,14 @@ a.cta:hover {
   font-style: italic;
   font-size: 1.2em;
   color: #999; }
+
+@media only screen and (max-width: 40em) {
+  #work-items {
+    margin-top: 20px; }
+  #work .row {
+    margin-bottom: 0px !important; }
+  .project {
+    margin-bottom: 15px; } }
 
 /* Projects - Full */
 .project-container {
@@ -2334,6 +2355,7 @@ a.close-big {
   a.close-big {
     width: 25px;
     height: 25px;
+    top: 25px;
     background-image: url(../img/close.png);
     background-size: 25px 25px; }
   .top-light a.close-big {
@@ -2795,11 +2817,13 @@ footer .columns {
   margin: 0;
   padding: 0; }
 
+.shots .row {
+  margin-bottom: 25px !important; }
+
 .shots .shot-container {
   border: 1px solid #ddd;
   background-color: White;
   float: left;
-  margin: 5px;
   position: relative; }
 
 .shots .shot-container .shot-info {
@@ -2845,6 +2869,17 @@ footer .columns {
 
 .shots .shot-container a:hover .shot-info {
   opacity: 1; }
+
+.shots {
+  margin-top: 50px; }
+
+@media only screen and (max-width: 40em) {
+  .shots {
+    margin-top: 20px; }
+  .shots .row {
+    margin-bottom: 0 !important; }
+  .shots .shot-container {
+    margin-bottom: 10px; } }
 
 /* Spinner - Spinkit -  */
 #loader {
