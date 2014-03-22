@@ -1,0 +1,21 @@
+  	<script>
+
+	$(function() {
+
+		setTimeout(function() {
+			$("#project-header").addClass("visible");
+		}, 0);
+
+		setTimeout(function() {
+			$(".project-full").addClass("visible");
+		}, 300);
+
+
+		setTimeout(function() {
+			$("#loader").addClass("hidden");
+			$("html").removeClass("scrolldisabled");
+			$("body").removeClass("scrolldisabled");
+		}, 600);
+	});
+
+	</script> 
