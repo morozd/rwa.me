@@ -5,7 +5,7 @@
 <html class="no-js" lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimal-ui" />
 		
 		<title>About · Rick Waalders · Product Designer &amp; Developer</title>
 
@@ -143,10 +143,6 @@
         <li><a href="http://facebook.com/rickwaalders">Facebook</a></li>
       </ul>
 
-      <p>
-        Feel free to say hello through <a href="mailto:rwaalders@gmail.com">email</a> or Skype (rwaalders).
-      </p>
-
     </div>
   </div>
 
@@ -193,7 +189,7 @@
       <h2>Get in touch</h2>
 
       <p>
-        <a href="mailto:rwaalders@gmail.com">rwaalders@gmail.com</a>
+        Feel free to say hello through <a href="mailto:rwaalders@gmail.com">email</a> or Skype (rwaalders).
       </p>
 
     </div>
@@ -205,6 +201,7 @@
 		</div>
 
 		
+  		
 		<footer>
 			<div class="row">
 		    	<div class="medium-4 columns">
@@ -246,14 +243,19 @@
 
 		</footer>
   		
-  		<script src="assets/js/vendor/zepto.min.js"></script>
+  		
+  		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+if (!window.jQuery) 
+{
+    document.write('<script src="assets/js/vendor/jquery.1.11.min.js"><\/script>');
+}
+</script>
 <script src="assets/js/vendor/picturefill.min.js"></script>
 <script src="assets/js/vendor/smooth-scroll.min.js"></script>
 <script src="assets/js/app.min.js"></script>
-<script>
 
-</script>
-
+  		
   		<script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -267,6 +269,6 @@
   })();
 
 </script>
-		
-	</body>
+
+</body>
 </html>

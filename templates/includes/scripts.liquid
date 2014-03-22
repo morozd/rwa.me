@@ -1,7 +1,10 @@
-{{ "zepto.min.js" | asset_url | script_tag }}
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>
+if (!window.jQuery) 
+{
+    document.write('<script src="/assets/js/vendor/jquery.1.11.min.js"><\/script>');
+}
+</script>
 {{ "picturefill.min.js" | asset_url | script_tag }}
 {{ "smooth-scroll.min.js" | asset_url | script_tag }}
 {{ "app.min.js" | asset_url | script_tag }}
-<script>
-
-</script>

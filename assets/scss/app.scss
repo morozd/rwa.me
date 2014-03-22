@@ -43,9 +43,7 @@ html, body {
 }
 
 html { 
-	-ms-word-break: break-all; 
-	word-break: break-all; 
-	word-break: break-word; /* old webkit */ 
+
 }
 
 body {
@@ -328,8 +326,8 @@ a.view-my-work:hover {
 @media only screen and (max-width: 40em) { 
 
 	#top {
-		padding-top: 25px;
-		padding-bottom: 0px;
+		padding-top: 50px;
+		padding-bottom: 15px;
 	}
 
 	#logo {
@@ -338,6 +336,11 @@ a.view-my-work:hover {
 		width: 4em;
 		padding: 22px;
 
+	}
+
+	#nav {
+		margin-top: 5px;
+		margin-bottom: 20px;
 	}
 
 	#intro-dot {
@@ -367,6 +370,32 @@ a.view-my-work:hover {
 		margin-top: 15px;
 		font-size: 1.0em;
 	}
+}
+
+/* iPad */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+	
+	#nav {
+		font-size: 1.4em;
+	}
+
+	#intro {
+		padding-top: 130px;
+		padding-bottom: 75px;
+		margin-bottom: 60px;
+	}
+
+	#intro-dot {
+		top: 70px;
+	}
+
+	a.view-my-work {
+		margin-top: 60px;
+		font-size: 1.6em;
+	}
+
 }
 
 #intro .row {

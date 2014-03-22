@@ -2,17 +2,17 @@
 
 	$(function() {
 
-		setTimeout(function() {
+		window.setTimeout(function() {
 			$("#project-header").addClass("visible");
 		}, 0);
 
-		setTimeout(function() {
+		window.setTimeout(function() {
 			$(".project-full").addClass("visible");
 		}, 300);
 
 
-		setTimeout(function() {
-			$("#loader").addClass("hidden");
+		window.setTimeout(function() {
+			$("#loader").remove();
 			$("html").removeClass("scrolldisabled");
 			$("body").removeClass("scrolldisabled");
 		}, 600);
