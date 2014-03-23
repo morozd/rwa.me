@@ -104,8 +104,13 @@ p, ul {
 	font-family: "ff-tisa-web-pro",serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	line-height: 1.6em;
+}
+
+ul li * {
+	position: relative;
+	top: -0.1em;
 }
 
 blockquote {
@@ -118,8 +123,11 @@ blockquote {
 }
 
 ul {
-	list-style-type: circle;
 	margin-left: 35px;
+}
+
+ul.list {
+	color: $dark-text-color;
 }
 
 @media only screen and (max-width: 40em) { 
@@ -1042,6 +1050,22 @@ only screen and (min-width: 1100px) {
 	padding-bottom: 20px;
 	margin-bottom: 20px;
 	border-bottom: 1px solid #ddd;
+}
+
+.inspiration {
+	font-size: 0.7em;
+	margin-top: 15px;
+	color: $light-text-color;
+}
+
+.inspiration a {
+	color: $dark-text-color;
+	text-decoration: none;
+}
+
+.inspiration a:hover {
+	
+	color: $dark-text-color;
 }
 
 @media only screen and (max-width: 40em) { 

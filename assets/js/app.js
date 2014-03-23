@@ -16,12 +16,18 @@ $(function() {
 
 	$(".navigate-down").click(function(e) {
 
-		$(this).addClass("hidden");
+		$(this).addClass("hidden"); 
 		$(".navigate-down-bg").addClass("hidden");
-		$("#logo-small").addClass("visible");
+		$("#logo-small").addClass("visible"); 
 
 		e.preventDefault();
 		smoothScroll($(window), $("#project-details").offset().top, 400);
+	});
+
+	$("#btn-view-work").click(function() {
+
+		mixpanel.track("View Work button clicked");
+
 	});
 
 	$( window ).scroll(function() {
