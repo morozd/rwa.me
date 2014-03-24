@@ -470,6 +470,23 @@ a.cta:hover {
 
 /* Projects */
 
+.work-list {
+	color: #000;
+}
+
+.work-list li span {
+	color: #999;
+}
+
+.work-list li a {
+	color: #000;
+	text-decoration: underline;
+}
+
+.work-list li a:hover {
+	color: #222;
+}
+
 #work {
 	margin-bottom: 50px;
 }
@@ -1148,6 +1165,7 @@ footer ul {
 
 footer a {
 	color: #ccc;
+	text-decoration: none;
 }
 
 footer a:hover {
