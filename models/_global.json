@@ -1,0 +1,13 @@
+{
+	"baseUrl": "http://rwa.me",
+	"defaultPageTitle": "Rick Waalders · Product Designer & Developer",
+	"indexPageTitlePrefix": "Work",
+	"aboutPageTitlePrefix": "About",
+	"blogPageTitlePrefix": "Blog",
+	"blogArchivePageTitlePrefix": "Archive",
+	"pageTitleSeperator": " · ",
+	"favoriteToolsPageTitlePrefix": "Favorite Tools",
+	"favoriteBooksPageTitlePrefix": "Favorite Books",
+	"version": "5"
+}
+
